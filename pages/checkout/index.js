@@ -201,6 +201,8 @@ export default function index() {
 
   useEffect(async () => {
     // checkoutdata()
+    const ISSERVER = typeof window === "undefined";
+    if(!ISSERVER) {
     const arrayOfData = localStorage.getItem("user");
     if (arrayOfData) {
       const d = arrayOfData !== null ? JSON.parse(arrayOfData) : [];
@@ -213,6 +215,7 @@ export default function index() {
     } else {
       router.push("/login");
     }
+  }
   }, [deletessids1, deletessids2, paymentprice, paymentmethod]);
 
   const allpaymentmethod = () => {

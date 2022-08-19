@@ -7,7 +7,8 @@ const Test = () => {
 
  const array=[];
     const product =async() => {
-        if (localStorage) {
+        const ISSERVER = typeof window === "undefined";
+        if(!ISSERVER) {
         const arrayOfData = localStorage.getItem('user');
          if (arrayOfData) {
             const d = arrayOfData !== null ? JSON.parse(arrayOfData) : [];
