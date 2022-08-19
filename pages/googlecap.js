@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import captchaImg from './captcha.jpg';
-import studentIMG from './2.png';
+// import studentIMG from './2.png';
 import React, { useState, useEffect } from 'react';
 
 function Captcha() {
