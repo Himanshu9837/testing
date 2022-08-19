@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import Image from 'next/image'
-import Logo from "../../public/images/Logo_1.svg";
+// import Logo from "../../public/images/logo_1.svg";
 import { useRouter } from 'next/router'
 import { ToastContainer, toast } from 'react-toastify';
 import VisibilityIcon from '@mui/icons-material/Visibility';
@@ -70,9 +70,9 @@ export default function logins() {
             <div className="logincontainer">
                 <div className="logininner">
                     <div className="loginlogo">
-                        <Link href="/">
+                        {/* <Link href="/">
                             <Image src={Logo} alt="Not-found" />
-                        </Link>
+                        </Link> */}
                         {/* <Logo /> */}
                     </div>
                     <form method='post'>
