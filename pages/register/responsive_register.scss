@@ -1,0 +1,58 @@
+@media only screen and (min-width: 200px) and (max-width: 550px) {
+
+  .checkbtn_register{
+    margin-top: 2.5rem;
+  }
+  .pointer{
+    margin-top: 45px;
+  }
+  .display_div {
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+    position: relative;
+  }
+  .register_second_view {
+    margin: 20px;
+  }
+  .register_view{
+    height: 100%;
+  }
+  .form-control{
+    z-index: 555;
+  }
+  .back_img_style{
+    display: block;
+  }
+  .register_third_view {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 90%;
+    margin: auto;
+  }
+  .flex_styles {
+    margin: 20px;
+    width: 90% !important;
+    align-items: baseline;
+
+  }
+  .verify_btn {
+    width: 90%;
+  }
+  .verify_btn.active {
+    width: 90%;
+    margin: auto;
+  }
+  .divider_style{
+      display: none;
+  }
+
+}
+
+@media only screen and (min-width: 561px) and (max-width: 920px) {
+.register_third_view{
+width: 100%;
+margin: 20px;
+}
+}
+

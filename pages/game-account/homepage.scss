@@ -1,0 +1,523 @@
+.flexcontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.homeresponsive {
+  max-width: 1920px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.home_page_style {
+  background: #000;
+}
+.input_home_search {
+  width: 50% !important;
+  padding: 0.9rem 0.4rem;
+  outline: none;
+  border: none;
+
+  background: #1f2635;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-weight: 500 !important;
+  color: #fff;
+}
+
+.home_page_box .css-i4bv87-MuiSvgIcon-root {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #e9ac4a !important;
+}
+.home_page_box {
+  border: 1px solid #e9ac4a;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  align-items: center;
+  background-color: #1f2635;
+  border-radius: 30px;
+  height: 8vh;
+  margin-top: 18vh;
+}
+.home_page_contaner {
+  display: flex;
+  padding-top: 3rem;
+}
+.home_page_box .select_div {
+  background-color: #1f2635 !important;
+  height: 50px !important;
+  width: 30% !important;
+  color: #e9ac4a;
+  border-radius: 30px;
+  padding-left: 5px !important;
+  border: none !important;
+  outline: none;
+}
+.image_div_banner {
+  display: flex;
+
+  justify-content: space-around;
+  margin-top: 14vh;
+}
+
+// // .game_color {
+// //   color: #fff;
+// //   font-size: 1.7rem;
+// //   // margin-left: 3rem;
+// // }
+// // .game_color3 {
+// //   color: #fff;
+// //   font-size: 1.7rem;
+// //   margin-right: 3rem;
+// }
+// .game_color:hover {
+//   color: #fff;
+//   text-shadow: 0px 0px 30px #fff;
+//   -moz-transition: all 0.2s ease-in;
+//   -o-transition: all 0.2s ease-in;
+//   -webkit-transition: all 0.2s ease-in;
+//   transition: all 0.2s ease-in;
+// }
+// .game_color3:hover {
+//   color: #fff;
+//   text-shadow: 0px 0px 30px #fff;
+//   -moz-transition: all 0.2s ease-in;
+//   -o-transition: all 0.2s ease-in;
+//   -webkit-transition: all 0.2s ease-in;
+//   transition: all 0.2s ease-in;
+// }
+.game_color2:hover {
+  color: #fff;
+  text-shadow: 0px 0px 30px #fff;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.buy_now_style {
+  color: white;
+  width: 15%;
+  height: 40px;
+  background: linear-gradient(to right, rgb(244, 233, 181),rgb(199, 202, 18));
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 5px 5px #000;
+  z-index: 5555;
+}
+
+.buy_now_style:hover {
+  background: linear-gradient(to left, rgb(244, 233, 181),rgb(199, 202, 18));
+  cursor: pointer;
+  color: black;
+}
+
+.sell_now_style {
+  color: white;
+  width: 15%;
+  height: 40px;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(184, 227, 223),rgb(41, 162, 196));
+  border: none;
+  font-weight: 700;
+  box-shadow: 5px 5px #000;
+  z-index: 5555;
+  margin-right: 35px;
+
+}
+
+.sell_now_style:hover {
+  background: linear-gradient(to left, rgb(184, 227, 223),rgb(41, 162, 196));
+  cursor: pointer;
+  color: black;
+}
+
+.texthomepage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.part1_style {
+  margin-top: -8rem;
+  padding-top: 2.5rem;
+  z-index: 55;
+  // margin-right: 21rem;
+}
+.part2_style {
+  // width: 30%;
+}
+.part3_style {
+  margin-top: -8rem;
+  padding-top: 2.5rem;
+  text-align: end;
+  z-index: 55;
+}
+.text_game_style {
+  font-size: 6.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: -20px;
+}
+.text_game_style2 {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: -20px;
+  text-align: center;
+}
+.part3_style span {
+  max-width: 300px !important;
+}
+.part1_style span {
+  max-width: 350px !important;
+}
+.second_div_style {
+  background-color: #000;
+  height: 700px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  align-items: center;
+}
+.second_div_style1 {
+  background-color: #151515;
+
+  padding: 50px 0;
+  width: 100%;
+  align-items: center;
+  height: 700px;
+  justify-content: center;
+  flex-direction: column;
+}
+.thired_div_style {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    background: url('https://cdn.discordapp.com/attachments/931422222432731176/997002616271806495/cashoutdepositbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    & h2{
+      font-weight: 900;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+  .thired_div_style2 {
+    padding: 50px 0;
+    flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  & h2{
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}
+.leftarticle2, .rightarticle2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 50% 1;
+  padding: 0 20px;
+}
+.rightcashoutdiv{
+
+    display: flex;
+    justify-content: center;
+    flex: 50%;
+    padding: 0 20px;
+}
+.divided_screen_style {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 50%;
+  padding: 0 20px;
+
+}
+.first_divided {
+    & img{
+      width: 100%;
+    max-width: 570px;
+    height: 100%;
+    filter: drop-shadow(10px 0 30px black);
+    }
+}
+.second_divided {
+  align-self: center;
+  max-width: 630px;
+  & h2{
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+}
+.game_color2 {
+  color: #7c8484;
+  font-size: 18px;
+  line-height: 27px;
+}
+.game_color3 {
+  color: #7c8484;
+  font-size: 18px;
+  line-height: 24px;
+}
+.button_aboutus {
+  outline: none;
+  border: none;
+  color: #fff;
+  width: 50%;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+
+  background: linear-gradient(to right, #BB86FC, #03DAC5);
+  padding: 0.9rem 1.2rem;
+}
+.how_it_work {
+
+  text-align: center;
+  & h2{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+  }
+}
+.btn_about {
+  margin-top: 10vh;
+  display: flex;
+}
+.btn_about1 {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.mag_div {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.mag_div1 {
+  cursor: pointer;
+}
+.first_divided1 {
+  width: 100%;
+  display: flex;
+  padding-top: 7rem;
+  justify-content: center;
+}
+.the {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: -20px;
+  text-align: center;
+}
+.para1{
+    margin: 30px 0 50px;
+}
+
+.byu_style {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+}
+.gameaccount_style {
+  margin-left: 3rem;
+}
+.hardware_style {
+  margin-right: 2vw;
+  margin-top: 2rem;
+}
+
+.googleplayimg {
+  margin: 0.5rem 0;
+}
+.appstoreimg {
+  margin: 0.5rem 0;
+}
+.serachbanner {
+  position: relative;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+
+  left: 50%;
+  transform: translateX(-50%);
+  top: -30%;
+  width: 550px;
+  border-radius: 25px;
+  height: 60px;
+  padding: 1rem;
+  background: #121212;
+
+  & .inputbanner {
+    & .inputtypebanner {
+      background: transparent;
+      outline: none;
+      height: 60px;
+      border: none;
+      width: 100%;
+      margin-left: 1rem;
+      color: #fff;
+      &:hover ~ .serachbanner {
+        background-color: #2284ad;
+      }
+    }
+  }
+  & .css-qc6sy-singleValue {
+    color: #fff;
+  }
+}
+.serachbannerresults.active {
+  display: flex;
+}
+
+.serachbannerresults {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6;
+  width: 550px;
+  background: #121212;
+  top: 113px;
+  border-radius: 10px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.6rem;
+}
+.website_link_style {
+  font-size: 22px;
+  color: #fff;
+}
+// @keyframes shadows {
+//   0%{
+//       background-position: -500%;
+//   }
+//   100%{
+//       background-position: 500%;
+//   }
+// }
+// .shine{
+//   background: linear-gradient(90deg, #000, #fff, #000);
+//   background-size: 80%;
+//   background-clip: text;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: rgb(255, 255, 255, 0.2);
+//   animation: shadows 4s infinite;
+//   overflow: hidden;
+//   background-repeat: no-repeat;
+// }
+.the.animationtext,
+.text_game_style2.animationtext,
+.text_game_style {
+  // background:url('https://cdn.discordapp.com/attachments/931422222432731176/989843485668573214/3.jpg');
+  // background-size: auto 200%;
+  // background-clip: text;
+  // text-fill-color: transparent;
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  // display: flow-root;
+  // animation: shine 8s linear infinite;
+  // &:nth-child(2) {
+  //   top: 50vh;
+  // }
+  @keyframes shine {
+    from {
+      background-position: center 0;
+    }
+    to {
+      background-position: center 200%;
+    }
+  }
+}
+
+// animation
+.market_style{
+  color: #E8AA42;
+  padding-left: 1rem;
+}
+.cashout_style{
+  color: #E8AA42;
+  padding-right: 1rem;
+}
+.h2market_style{
+  color: #fff;
+  display: block;
+}
+.h2market_style1{
+  display: none;
+}
+.market_style2{
+  color: #fff;
+  padding-left: 1rem;
+}
+
+.headimg{
+  z-index: 1;
+}
+
+.headlogo{
+  margin-top: 25px;
+  width: 100%;
+  height: auto;
+}
+.belimg{
+  flex-direction: column;
+}
+.smalltext{
+  font-size: 1.1rem;
+  color: grey;
+  text-align: center;
+}
+
+.orange{
+  margin-left: 20px;
+  color: orangered;
+}
+
+.smurf{
+  
+  padding-left: 405px;
+  font-size: 3rem;
+  color: white;
+  font-weight: 400;
+  
+}
+.acc{
+  font-size: 3rem;
+  color: #E8AA42;
+  font-weight: 400;
+  
+}
+
+// .headimg::before{
+//   content: "";
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   background: url(/images/avatars_1.png) no-repeat center;
+//   z-index: 0;
+// }

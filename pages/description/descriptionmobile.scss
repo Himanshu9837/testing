@@ -1,0 +1,257 @@
+@media only screen and (min-width: 869px) and (max-width: 1024px) {
+  // .zoom2.active {
+  //   display: block;
+  // }
+  .zoom.active {
+    display: none;
+  }
+  .zoom1.active {
+    display: block;
+  }
+  .div-4{
+    width: 45%;
+  }
+ 
+  .cart_btn{
+    font-size: 15px;
+  }
+  .bye_btn{
+    font-size: 15px;
+  }
+  .image_div_box2{
+    height: 12vh;
+    margin: 4px;
+  }
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1224px) {
+  // .zoom2.active {
+  //   display: block;
+  // }
+  .zoom.active {
+    display: none;
+  }
+  .zoom1.active {
+    display: block;
+  }
+  .div-4{
+    width: 35%;
+  }
+  .cart_btn {
+    font-size: 15px;
+  }
+  .bye_btn{
+    font-size: 15px;
+  }
+
+}
+@media only screen and (min-width: 650px) and (max-width: 868px) {
+  .zoom.active{
+    display: block;
+  }
+  .zoom1.active{
+    display: none;
+  }
+  .flex_style {
+    grid-template-columns: 1fr;
+  }
+  .header_div_style {
+    padding: 3rem 0.6rem;
+  }
+  .filter_box_style {
+    padding-top: 4px;
+  }
+  .low_div_style{
+    flex-wrap: nowrap;
+      }
+  .buyclass {
+    width: 100% !important;
+    margin: 1.3rem 0.5rem;
+  }
+  .soldclass {
+    width: 100% !important;
+  }
+  .alldescbtn {
+    margin-top: 0.5rem;
+  }
+  .cart_btn {
+    height: 35px;
+    font-size: 13px;
+    padding: 0;
+  }
+  .bye_btn {
+    font-size: 13px;
+    height: 35px;
+    padding: 0;
+  }
+  .price_style {
+    font-size: 1.4rem;
+  }
+  .image_div_box {
+    width: 95%;
+    margin: auto;
+  }
+  .image_div_style2 {
+    width: 95%;
+    margin: auto;
+  }
+  .description_style {
+    margin: 0.5rem;
+  }
+  .zoom {
+    width: 600px;
+  }
+
+  .slider_image_zoom {
+    width: 100%;
+    justify-content: space-evenly;
+
+  }
+
+  .image_div_box2 {
+    width: 80%;
+    height: 15vh;
+  }
+  .div-4{
+    width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 649px) {
+  .flex_style {
+    grid-template-columns: 1fr;
+  }
+  .header_div_style {
+    padding: 3rem 0.6rem;
+  }
+  .filter_box_style {
+    padding-top: 4px;
+  }
+  .low_div_style{
+    flex-wrap: nowrap;
+      }
+  .buyclass {
+    width: 100% !important;
+    margin: 1.3rem 0.5rem;
+  }
+  .soldclass {
+    width: 100% !important;
+  }
+  .alldescbtn {
+    margin-top: 0.5rem;
+  }
+  .cart_btn {
+    height: 35px;
+    font-size: 13px;
+    padding: 0;
+  }
+  .bye_btn {
+    font-size: 13px;
+    height: 35px;
+    padding: 0;
+  }
+  .price_style {
+    font-size: 1.4rem;
+  }
+  .image_div_box {
+    width: 95%;
+    margin: auto;
+  }
+  .image_div_style2 {
+    width: 95%;
+    margin: auto;
+  }
+  .description_style {
+    margin: 0.5rem;
+  }
+  .zoom {
+    width: 345px;
+  }
+  .zoom.active {
+    display: none;
+  }
+  .zoom1.active {
+    display: block;
+  }
+  .slider_image_zoom {
+    width: 100%;
+    justify-content: space-evenly;
+
+  }
+
+  .image_div_box2 {
+    width: 80%;
+    height: 10vh;
+  }
+  .div-4{
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .flex_style {
+    grid-template-columns: 1fr;
+  }
+  .header_div_style {
+    padding: 3rem 0.6rem;
+  }
+  .filter_box_style {
+    padding-top: 4px;
+    width: 50%;
+    height: 3vh;
+  }
+  .buyclass {
+    width: 100% !important;
+    margin: 1.3rem 0.5rem;
+  }
+  .soldclass {
+    width: 100% !important;
+  }
+  .alldescbtn {
+    margin-top: 0.5rem;
+  }
+  .cart_btn {
+    height: 35px;
+    font-size: 13px;
+    padding: 0;
+  }
+  .bye_btn {
+    font-size: 13px;
+    height: 35px;
+    padding: 0;
+  }
+  .price_style {
+    font-size: 1.4rem;
+  }
+  .image_div_box {
+    width: 95%;
+    margin: auto;
+  }
+  .image_div_style2 {
+    width: 95%;
+    margin: auto;
+  }
+  .description_style {
+    margin: 0.5rem;
+  }
+  .zoom {
+    width: 345px;
+  }
+  .zoom.active {
+    display: none;
+  }
+  .zoom1.active {
+    display: block;
+  }
+  .slider_image_zoom {
+    width: 100%;
+  }
+  // .zoom2.active {
+  //   display: none;
+  // }
+  .image_div_box2 {
+    width: 80%;
+    height: 8vh;
+  }
+}

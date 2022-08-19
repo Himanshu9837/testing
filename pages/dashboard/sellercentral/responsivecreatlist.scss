@@ -1,0 +1,113 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .selectinputsgame{
+        width: 60%;
+    }
+    .searchresultscreate{
+        width: 60%;
+    }
+    .searchresultscreate.active{
+        display: block;
+    }
+    .seconddiv{
+        width: 100%;
+        margin-top: 2rem;
+        height: auto;
+        // height: 100vh;
+    }
+    .innersdivs{
+        display: block;
+    }
+    .inners2div{
+        display: block;
+    }
+    .productdesc{
+        width: 90%;
+    }
+    .productstitles{
+        width: 90%;
+    }
+    .productprice{
+        width: 90%;
+    }
+    .productsdetail{
+        width: 100%;
+    }
+    .automatic-delivery{
+        width: 100%
+    }
+    .deliverybtn{
+        padding: 0;
+    }
+    .deliverydesc{
+        padding: 0;
+    }
+    .deliveryform{
+        padding: 0;
+    }
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+        margin: 2px;
+    }
+    .gamedropdows {
+        margin: 0.6rem 1rem;
+    }
+    .innerdiv1{
+       grid-template-columns: 1fr;
+    }
+    .allinerdivscreate{
+        padding: 0;
+        margin: 0;
+    }
+    .divs{
+        width: 230px;
+    }
+    .selectgames{
+        color:#fff !important;
+    }
+    .rightpannel_wrapper::after{
+        box-shadow: none;
+    }
+    .input-group1{
+        width: 70% !important;
+    }
+    .imageshow{
+        width: auto;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 590px) {
+    .selectinputsgame{
+        width: 60%;
+    }
+    .productprice{
+        width: 90%;
+    }
+    .allinerdivscreate{
+        padding: 1rem 0;
+    }
+
+    .searchresultscreate.active{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .inners2div{
+        width: 80%;
+        margin: auto;
+      }
+}
+
+@media only screen and (min-width: 591px) and (max-width: 880px) {
+    .productprice{
+        width: 70%;
+    }
+    .allinerdivscreate{
+        padding: 1rem 0;
+    }
+
+    .searchresultscreate.active{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+}
+
+

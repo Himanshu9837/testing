@@ -1,0 +1,263 @@
+.aboutus {
+  width: 100%;
+  height: 100vh;
+}
+
+.firstsection {
+  min-height: 260px;
+  width: 100%;
+  background: url("https://cdn.discordapp.com/attachments/931422222432731176/991258918024134706/aboutusbanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  & .innerfirstsection {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    & .aboutusheading {
+      font-size: 2.6rem;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+}
+.sectioncontent{
+
+  & .middlehead{
+    display: flex;
+    justify-content: space-between;
+  }
+  & .middlepara{
+    display: flex;
+    justify-content: space-between;
+
+  }
+}
+
+.secondsection {
+  min-height: 300px;
+  & .innersecondsection {
+    padding: 2rem;
+    display: flex;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+    & .leftsecond {
+      padding: 0.5rem;
+      flex: 2;
+      & .leftparasection {
+        width: 80%;
+        margin: 1rem 0;
+        font-size: 0.8rem;
+      }
+      & .leftsectionbtn {
+        width: 200px;
+        padding: 0.4rem;
+        outline: none;
+        border: none;
+        background: #f1c40f;
+        color: #fff;
+        &:hover {
+          background: #f39c12;
+        }
+      }
+    }
+  }
+}
+
+.thirdsection {
+  min-height: 300px;
+  background: url("https://wallpapercave.com/wp/wp2605484.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(0.6);
+  background-attachment: fixed;
+  display: flex;
+
+
+  & .thirdinner {
+    padding: 3rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    & .thirdinnerflex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 70%;
+      margin: auto;
+
+      & .singlecircle {
+        width: 100px;
+        border: 1px solid #fff;
+        height: 100px;
+        background: transparent;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #fff;
+        margin: 0 3rem;
+        & .countnumber {
+          color: #f1c40f;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+
+.foursection {
+  min-height: 500px;
+  & .innerfour {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+  flex-wrap: wrap;
+    & .leftfour {
+      flex: 1;
+    }
+    & .rightfour {
+      flex: 1;
+      flex: 1 1;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      & .innerrightfour {
+        // background: #95a5a6;
+        height: auto;
+        top: 0;
+        padding: 1rem;
+        & .allsection {
+          margin-top: 1.2rem;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 10px;
+
+          & .singlesection {
+            display: flex;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.sectionicon {
+ margin-right: 10px;
+  & svg {
+    font-size: 2rem;
+  }
+}
+
+.fivesection {
+  min-height: 300px;
+  background: url("https://cdn.discordapp.com/attachments/931422222432731176/991281661918593114/aboutuslowerbanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem 0;
+  position: relative;
+  background-attachment: fixed;
+  & .fivesectiondiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+
+    & .fivehead {
+      color: #fff;
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.sixsection {
+  margin: 2rem 0;
+
+  & .innericons {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+    & .singleiconbox {
+      display: flex;
+      align-items: center;
+
+      & .aboutus_icons {
+        margin-right: 12px;
+
+        & svg {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+.svensection {
+  min-height: 100px;
+  background: #2c3e50;
+  position: relative;
+
+  & .seveninner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    & .needhelp {
+      letter-spacing: 1px;
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+    }
+  }
+}
+
+.contactuspara{
+  padding-left: 0.3rem;
+}
+
+.leftsecondimg {
+  width: 100%;
+  height: 250px;
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.aboutus-containers{
+  max-width: 1920px;
+  margin: auto;
+}
+.circle_text_style{
+  text-align: center;
+  color: #fff;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.tagline_style{
+  color: #fff;
+  font-size: 18px;
+}
+.tagline_style2{
+  color: #fff;
+  font-size: 14px;
+}

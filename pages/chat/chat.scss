@@ -1,0 +1,42 @@
+.outerloading{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2E3543;
+}
+
+.chatcontainer{
+    width: 100%;
+    height: 100%;
+    & .chatinnercontainer{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 2.5fr 1fr
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .chatcontainer{
+        & .chatinnercontainer{
+            height: 100%;
+            position: absolute;
+            width: 100vw;
+            grid-template-columns: 1fr
+        }
+    }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .chatcontainer{
+        & .chatinnercontainer{
+            height: 100%;
+            position: absolute;
+            width: 100vw;
+            grid-template-columns: 1fr
+        }
+    }
+
+}

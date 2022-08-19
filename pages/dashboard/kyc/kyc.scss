@@ -1,0 +1,205 @@
+.kyc_style {
+  width: 80%;
+padding: 2rem;
+ background-color:#1B1F24 ;
+}
+.mainview_dashboard {
+  width: 28%;
+  margin: auto;
+  padding: 4rem 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin-bottom: 2rem;
+}
+.main_kyc_style {
+  width: 100%;
+  display: flex;
+}
+.onboarding {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+}
+.account_style {
+  text-align: center;
+  margin-top: 2rem;
+}
+.active_style {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.change_active_color {
+  color: #26bc4d;
+}
+.vrified_kyc_div {
+  background-color: #121418;
+//   height: 120px;
+padding: 20px;
+  margin-top: 2rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.verifird_seller {
+  color: #747575;
+}
+.vecome_verifed {
+  text-align: center;
+  // padding-top: 1rem;
+}
+.circle_div_style {
+  background-color: #009fe2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle_style_page {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.verified_number {
+  font-size: 30px;
+  color: #fff;
+}
+.dash_style {
+  font-size: 22px;
+  color: #747575;
+}
+.dash_gap {
+  padding: 10px;
+}
+.step1 {
+  background-color: #121418;
+//   height: 60px;
+padding: 15px;
+  margin-top: 1.5rem;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+}
+.step_color {
+  color: #26bc4d;
+  padding-left: 2rem;
+  font-size: 14px;
+}
+.icon_verified {
+  padding-right: 2rem;
+  & .css-i4bv87-MuiSvgIcon-root {
+    font-size: 2rem;
+    color: #a1a1a2;
+  }
+}
+.identity {
+  color: #fff;
+  font-size: 16px;
+}
+.step1_show {
+  background-color: #ffeccb;
+  margin-top: -1rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 25px;
+  margin-bottom: 1rem;
+}
+.visibal {
+  color: #3e3a32;
+  font-size: 14px;
+  font-weight: 700;
+}
+.uploade_img_style {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+.upload_image_para {
+  font-size: 12px;
+  color: #3e3a32;
+}
+.button_proceed {
+  align-self: flex-end;
+  width: 15%;
+}
+.proceed_button_class {
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  height: 30px;
+  background-color: #18af8b;
+}
+.thanku_style{
+    background-color: #121418;
+    height: 180px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 1.5rem;
+}
+.thanku_text_style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+.thanku_text{
+    color: #fff;
+    font-size: 14px;
+}
+.wait_style{
+    font-size: 16px;
+    color: #FFD155;
+    padding-top: 1rem;
+}
+.loading_style{
+    width: 40px;
+    height: 40px;
+    margin-top: 1rem;
+
+}
+.reject_style{
+    background-color: #121418;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 1rem;
+    padding: 1px;
+}
+.reject_text_style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.reject_para_style{
+    font-size: 18px;
+    color: #E53C3C;
+}
+.warning_img_style{
+    width: 80px;
+    height: 50px;
+    margin-top: 1rem;
+}
+.reasion_style{
+    font-size: 12px;
+    color: #747575;
+    margin-top: 1rem;
+}
+.resubmit{
+    font-size: 16px;
+    color: #FFD155;
+    padding: 1rem;
+    text-align: center;
+}
+.onboarding_marging_div{
+  margin-top: 3.5rem;
+}

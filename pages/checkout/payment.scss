@@ -1,0 +1,173 @@
+.conatiner {
+  width: 100%;
+  height: 100vh;
+  background: #191919;
+}
+.homebtns{
+  display: flex;
+    margin: auto;
+    margin: 2rem auto;
+    padding: 0.6rem 1.3rem;
+    outline: none;
+    cursor: pointer;
+    outline: none;
+    background: #2ecc71;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+}
+.navbar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 80px;
+}
+.navbar_wrapper {
+  width: 95%;
+  padding: 2.5rem 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  height: 100px;
+}
+.logo {
+  width: 145px;
+  text-transform: uppercase;
+}
+.logo img {
+  max-width: 100%;
+}
+
+// h1 {
+//   color: #fff;
+// }
+
+.paymentstatus {
+  width: 100%;
+  height: auto;
+}
+
+.paymentwrapper {
+  margin-top: 6rem;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+.paymenticon {
+  
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  
+  & svg{
+    font-size: 6rem;
+  }
+}
+.paymenticon img {
+  
+  min-width: 100px !important;
+    min-height: 100px !important;
+}
+.done {
+  color: #2ecc71 !important;
+   
+}
+
+.payment-detail {
+  margin-top: 2.5rem;
+  color: #fff;
+  font-size: 1.4rem;
+}
+h5 {
+  padding: 0.5rem 0;
+  font-weight: normal;
+}
+ 
+.declined {
+  letter-spacing: 1px;
+  text-transform: none;
+}
+.confirmed {
+  letter-spacing: 1px;
+  color: #27ae60;
+}
+
+.hold {
+  letter-spacing: 1px;
+  color: #d35400;
+}
+.failed {
+  letter-spacing: 1px;
+  color: #e74c3c;
+}
+
+.warning {
+  color: #d35400 !important;
+}
+.cancel {
+  color: #e74c3c !important;
+}
+#pending{
+  display: none;
+}
+#failed{
+  display: none;
+}
+
+ 
+
+
+@media (max-width: 420px) {
+  .emailwrapper{
+    margin-top: -6rem;
+  }
+  .payment-detail {
+    font-size: 0.8rem;
+    p{
+       
+      padding: 0 1rem;
+    }
+  }
+  .paymenticon{
+    margin-top: 0.5rem;
+  }
+  .paymenticon svg {
+    font-size: 3rem;
+  }
+  .paymentwrapper{
+    margin-top: 0rem;
+  }
+  .paymenticon img {
+     
+    min-width: 60px !important;
+      min-height: 60px !important;
+  }
+  .payment-detail{
+    margin-top: 1rem;
+  }
+}
+
+#emailverify{
+  height: 100vh;
+  
+  margin-top: 0;
+}
+
+.auth{
+  color: #27ae60;
+  padding-bottom: 0.8rem;
+}
+.paraemail{
+  font-size: 0.9rem;
+  padding-top: 1rem;
+
+
+}

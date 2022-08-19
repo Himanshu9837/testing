@@ -1,0 +1,123 @@
+@media only screen and (min-width: 721px) and (max-width: 1100px) {
+  .thirdsection {
+    & .thirdinner {
+      padding: 1rem;
+      & .thirdinnerflex {
+        width: 100%;
+      }
+    }
+  }
+  .foursection {
+    & .innerfour {
+      & .leftfour {
+        flex: 100%;
+        text-align: center;
+      }
+      & .rightfour {
+        flex: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 720px) {
+  .thirdsection {
+    & .thirdinner {
+      padding: 1rem;
+      & .thirdinnerflex {
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+        & .singlecircle {
+          width: 70px;
+          height: 70px;
+          margin: 0;
+          padding: 0.6rem;
+        }
+      }
+    }
+  }
+  .foursection{
+    & .innerfour{
+
+      & .leftfour{
+        flex: 100%;
+        & .leftfourvideo{
+
+          & iframe{
+            width: 100%;
+          }
+        }
+
+      }
+
+    }
+  }
+  .secondsection{
+
+    & .innersecondsection{
+
+      & .leftsecond{
+        text-align: center;
+
+        &  .leftparasection{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 420px) {
+  .secondsection {
+    & .innersecondsection {
+      text-align: center;
+      width: 100%;
+      & .leftsecond {
+        flex: 100%;
+        & .leftparasection {
+          width: 100%;
+        }
+      }
+      & .rightsecond {
+        flex: 100%;
+      }
+    }
+  }
+  .foursection {
+    & .innerfour {
+      & .leftfour {
+        flex: 100%;
+        & .leftfourvideo {
+          text-align: center;
+          & iframe {
+            width: 100%;
+          }
+        }
+      }
+      & .rightfour {
+        flex: 100%;
+        & .innerrightfour {
+          & .allsection {
+            grid-template-columns: 1fr;
+          }
+        }
+      }
+    }
+  }
+
+  .thirdsection {
+    & .thirdinner {
+      padding: 0;
+
+      & .thirdinnerflex {
+        width: 100%;
+        flex-wrap: wrap;
+        & .singlecircle {
+          margin: 1rem 2rem;
+          // flex: 25%;
+        }
+      }
+    }
+  }
+}

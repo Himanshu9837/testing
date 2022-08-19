@@ -1,0 +1,761 @@
+.custom-select {
+  display: inline-block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  vertical-align: middle;
+
+  -webkit-appearance: none;
+  appearance: none;
+}
+.react-input-emoji--button {
+  position: absolute;
+  right: 0;
+}
+.backbround_color_style {
+  background-color: #121418;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 2rem;
+}
+.innerdiv1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.photo_panal_style {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.rightpannel_wrapper .css-1aquho2-MuiTabs-indicator {
+  display: none;
+}
+.descriptionform {
+  border: 1px solid #373737;
+  background-color: #000;
+}
+.rightpannel_wrapper .css-heg063-MuiTabs-flexContainer {
+  justify-content: center;
+}
+.productsdetail {
+  margin: 0;
+  padding: 0.5rem 0.4rem;
+  height: 40px;
+  color: #fff;
+  width: 100%;
+  background: #000;
+  border: 1px solid #373737;
+}
+.productdesc {
+  width: 65%;
+}
+.productstitles {
+  margin: 0.6rem auto;
+  width: 65%;
+}
+.productprice {
+  width: 30%;
+}
+.stockdetail {
+  width: 100%;
+  border: 1px solid #373737;
+}
+.ProductListing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createlistbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.seconddiv {
+  width: 100%;
+  min-height: 80vh;
+  max-height: 1800px;
+}
+.prevbtns {
+  cursor: pointer;
+  margin: 0 1rem;
+}
+.prevbtns svg {
+  font-size: 2.3rem;
+  color: #4abc96;
+}
+.nextbtns {
+  cursor: pointer;
+}
+.nextbtns svg {
+  font-size: 2.3rem;
+  color: #4abc96;
+}
+.deliverydesc {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 5.5rem;
+}
+.automatic-delivery {
+  padding: 0.6rem;
+  background: transparent;
+  outline: none;
+  border: 1px solid #063d20;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 7px;
+  &:hover {
+    background: #fff;
+    color: #000;
+    // font-weight: 700;
+  }
+}
+
+.automaticdesc {
+  font-size: 0.6rem;
+  width: 65%;
+  margin: 0.8rem auto;
+}
+.usersformsumbit {
+  height: auto;
+}
+.deliveryform {
+  display: flex;
+  align-items: center;
+  // padding: 1rem 5.5rem;
+}
+.ordercomplete {
+  text-align: center;
+  margin-top: 2rem;
+}
+.leftform {
+  flex: 1;
+}
+.rightform {
+  flex: 1;
+}
+
+.notes {
+  height: 150px;
+  background: #1b1b1b;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.saveorder {
+  display: flex;
+  width: auto !important;
+}
+.deliverybtn {
+  display: flex;
+  text-align: center;
+  padding: 2.5rem;
+  width: 50%;
+    margin: auto;
+}
+.automaticbtn {
+  flex: 1;
+  margin: 0.6rem;
+}
+
+.selectgame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.selectinputsgame {
+  width: 30%;
+  margin-top: 1rem;
+}
+.gameselect {
+  width: 100%;
+  color: #fff;
+}
+
+.product-adding {
+  border-radius: 8px;
+  margin: 40px;
+}
+
+.div_left {
+  align-items: flex-end;
+  margin-bottom: 20px;
+  background-color: #ff4c3b;
+}
+
+.input_div {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-form-label {
+  display: block;
+  text-align: left;
+}
+
+.custom-select {
+  display: inline-block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  vertical-align: middle;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.add_product_btn {
+  font-size: 14px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  background-color: #5048e5;
+  border-color: #ff8084 !important;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.text_area {
+  margin-left: 8px;
+  margin-right: unset;
+  width: 100%;
+}
+
+.needs-validation {
+  .form-group {
+    text-align: right;
+
+    .checkbox {
+      padding-right: 0;
+      padding-left: unset;
+    }
+  }
+
+  .permission-block {
+    .attribute-blocks {
+      padding-right: 15px;
+      padding-left: unset;
+      text-align: right;
+
+      .row {
+        padding-right: 20px;
+        padding-left: unset;
+      }
+    }
+  }
+
+  .checkbox {
+    label {
+      padding-right: 16px;
+      padding-left: unset;
+
+      &::before {
+        right: 0;
+        left: unset;
+        margin-left: unset;
+        margin-right: -16px;
+      }
+    }
+
+    right: 0;
+    margin-left: -16px;
+  }
+
+  .radio-animated {
+    label {
+      margin-left: 20px;
+      margin-right: unset;
+    }
+  }
+}
+.upload_image {
+  display: flex;
+
+  input {
+    width: 155px !important;
+    height: 156px !important;
+    opacity: 0;
+    flex: inherit;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .image_preview {
+    width: 9.8rem;
+    height: 9.8rem;
+    margin: 0 2rem !important;
+
+    border-radius: 10px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .upload_image_container {
+    position: relative;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px !important;
+    cursor: pointer;
+
+    .upload_image_input {
+      cursor: pointer;
+    }
+
+    .upload_icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 35px;
+      fill: rgba(0, 0, 0, 0.54);
+    }
+  }
+}
+.form-control {
+  font-size: 14px;
+  width: 100%;
+}
+.edittext {
+  height: 90px;
+  background-color: red;
+}
+.upload_image1 {
+  display: flex;
+
+  input {
+    width: 100% !important;
+    height: 32vh !important;
+    opacity: 0;
+    flex: inherit;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .upload_image_container1 {
+    position: absolute;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px !important;
+    cursor: pointer;
+    width: 350px;
+    height: 100%;
+    overflow: hidden;
+
+    .upload_image_input1 {
+      cursor: pointer;
+    }
+
+    .upload_icon1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 35px;
+      fill: rgba(0, 0, 0, 0.54);
+    }
+  }
+}
+
+.upload_image2 {
+  display: flex;
+
+  input {
+    width: 155px !important;
+    height: 97px !important;
+    opacity: 0;
+    flex: inherit;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .image_preview2 {
+    width: 9.8rem;
+    height: 9.8rem;
+    margin: 0 2rem !important;
+
+    border-radius: 10px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      object-fit: fill;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .upload_image_container2 {
+    position: relative;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px !important;
+    cursor: pointer;
+    height: 90px;
+
+    .upload_image_input2 {
+      cursor: pointer;
+    }
+
+    .upload_icon2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 35px;
+      fill: rgba(0, 0, 0, 0.54);
+    }
+  }
+}
+
+.input-group1 {
+  position: relative;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  min-height: 90px;
+}
+.image_preview1 {
+  width: 100%;
+  height: 30%;
+}
+
+.ReactCrop {
+  display: block;
+  height: 100%;
+  image-orientation: 0deg;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+
+  background: #000;
+  overflow: hidden;
+  position: absolute;
+
+  left: 50%;
+  height: 494px;
+  transform: translateX(-50%);
+}
+
+.crop_img {
+  object-fit: contain;
+}
+
+.conatinerimage {
+  padding: 20px 3px;
+  overflow: hidden;
+}
+.conatinerimagewrapper {
+  position: relative;
+}
+.innerconatiner {
+  width: 708px;
+  height: 500px;
+}
+.croppersdiv {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cropsimageresult {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  
+}
+.Cropdiv {
+  width: "300px";
+  height: "150px";
+}
+.ReactCrop__crop-selection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 0, 0);
+  cursor: move;
+  touch-action: none;
+  border: 1px dashed #000 !important;
+}
+.ReactCrop__image {
+  display: block;
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  image-orientation: 0deg;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  width: 100%;
+  touch-action: none;
+}
+.imageshow {
+  width: 800px;
+  height: 494px;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+}
+.ReactCrop--fixed-aspect div {
+  height: 494px;
+}
+.conatinerimage.ative {
+  display: none;
+}
+
+.divs {
+  border: 1px solid;
+  position: relative;
+  left: 51%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 302px;
+  height: 100px;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-top: 0;
+  align-items: center;
+  & .divsimg {
+    width: 50px;
+    & img {
+      width: 100%;
+    }
+  }
+}
+.divs.active {
+  display: none;
+}
+.divstitle_create {
+  margin-left: 1rem;
+  & h2 {
+    font-size: 1rem;
+  }
+}
+
+.outerimgsearch {
+  height: auto;
+  width: 120px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  flex-basis: 1;
+
+  margin: auto;
+}
+
+.searchresultscreate {
+  margin: 4rem auto;
+  display: none;
+}
+.searchresultimg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 116px;
+  z-index: 3;
+  cursor: pointer;
+  & img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    object-fit: cover;
+    object-fit: contain;
+  }
+}
+.searchresultscreate.active {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+.made {
+  display: flex;
+}
+.star {
+  color: red;
+}
+
+.selectgames {
+  margin: 0.5rem 0;
+  width: 100% !important;
+  padding: 0.5rem;
+  color: #fff;
+  background: transparent !important;
+  border: 2px solid #5c2a2a;
+  border-radius: 6px;
+  outline: none;
+}
+
+.innersdivs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gamedropdows {
+  margin: 0 2rem;
+}
+.inners2div {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.gamesoption {
+  background: #222222 !important;
+}
+.gamesoption:hover {
+  background: #1b1b1b;
+}
+
+.homepage_wrapper {
+  width: 80%;
+}
+
+.gamedropdown {
+  display: none;
+}
+.gamedropdown.active {
+  display: block;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  min-height: 20px !important;
+  padding: 4px 3px !important;
+  min-width: 60px !important;
+  margin: 15px;
+}
+.tab_style {
+  width: 100%;
+}
+.tab_style .css-15n3elo {
+  border-bottom: 0;
+}
+.deletephotos {
+  position: absolute;
+  bottom: 5px;
+  color: #fff;
+  background: transparent;
+  z-index: 66;
+  outline: none;
+  border: none;
+  right: 5px;
+  visibility: hidden;
+  // &:hover {
+  //   color: red;
+  // }
+}
+.deletephotos.active:hover {
+  color: red;
+}
+
+.upload_image1 {
+  & .upload_image_container1 {
+    &:hover > .deletephotos.active {
+      visibility: visible;
+    }
+  }
+}
+
+.cropsimageresult {
+  & img {
+    position: relative;
+    z-index: 0;
+  }
+}
+.upload_image_input3:hover > .deletephotos.active {
+  visibility: visible;
+}
+.upload_image_input2:hover > .deletephotos.active {
+  visibility: visible;
+}
+.upload_image_input1:hover > .deletephotos.active {
+  visibility: visible;
+}
+.upload_image_input0:hover > .deletephotos.active {
+  visibility: visible;
+}
+.upload_image_input_3:hover > .deletephotos.active {
+  visibility: visible;
+}
+// .upload_image_input3 {
+//   cursor: pointer;
+//   position: relative;
+// }
+.createlisting {
+  color: #fff;
+  margin-top: 3.5rem;
+  font-size: 25px;
+  font-weight: 800;
+}
+.secondcreatediv {
+  & .css-30d4sn-MuiButtonBase-root-MuiTab-root {
+    color: #fff;
+  }
+}
+.css-15n3elo {
+  border-bottom: 0;
+}
+.nextpage {
+  color: #fff;
+}
+.duration_show_style {
+  width: 60%;
+  margin: 1rem auto;
+}
+.radio_button_div_style{
+  display: flex;
+  align-items: center;
+}
+.user_desigen_style{
+  margin-left: 5rem;
+}

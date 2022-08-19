@@ -1,0 +1,101 @@
+.contactus {
+  width: 100%;
+  overflow: hidden;
+  background: url("https://cdn.discordapp.com/attachments/931422222432731176/991948389069639721/Contactusbackground.jpg")
+    no-repeat;
+  // filter: grayscale(0.6);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  & .contactusinner {
+    padding: 6rem;
+    display: flex;
+    max-width: 1920px;
+    margin: auto;
+    flex-wrap: wrap;
+    & .leftside_contactus {
+      flex: 1;
+      & .leftside_contactus_inner {
+        & .contactus_heading {
+          font-size: 2.6rem;
+          color: #fff;
+          font-weight: 600;
+        }
+
+        & .contactus_para {
+          color: #fff;
+          font-size: 14px;
+        }
+        & .contatus_address {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          & .singleadress {
+            padding: 2rem 0;
+            & .adress_icons {
+              margin-bottom: 10px;
+              & svg {
+                font-size: 2.2rem;
+                color: #fff;
+              }
+            }
+            & .adress_text {
+              & .addresstext_inner {
+                color: #fff;
+                font-size: 12px;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    & .rightside_contactus {
+      flex: 1;
+
+      & .outercontactus_form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        & .conatct_us {
+          margin: 0.5rem;
+
+          & .contactus_name_text {
+            width: 100%;
+            padding: 0.7rem 0.4rem;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+          }
+        }
+
+        & .contactus_subject {
+          grid-column-start: 1;
+          grid-column-end: 3;
+        }
+        & .contactus_message {
+          grid-column-start: 1;
+          grid-column-end: 3;
+        }
+
+        & .sendbutton {
+          margin-top: 1rem;
+
+          & input {
+            padding: 0.6rem;
+            border-radius: 8px;
+            outline: none;
+            border: none;
+            background: #1c4244;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            &:hover {
+              background: #34495e;
+            }
+          }
+        }
+      }
+    }
+  }
+}
