@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8317],{48317:function(e,a,t){var u=t(95318);Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var d=u(t(64938)),l=t(85893),r=(0,d.default)((0,l.jsx)("path",{d:"M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"}),"KeyboardArrowRight");a.default=r}}]);
