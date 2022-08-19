@@ -7,6 +7,7 @@ const Test = () => {
 
  const array=[];
     const product =async() => {
+        if (localStorage) {
         const arrayOfData = localStorage.getItem('user');
          if (arrayOfData) {
             const d = arrayOfData !== null ? JSON.parse(arrayOfData) : [];
@@ -18,6 +19,7 @@ const Test = () => {
             window.location = '/login';
             
          }
+        }
       }
       product();
     return (
