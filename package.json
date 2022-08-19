@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "next -p 3000",
-    "build": "next build && next export"
+    "build": "next build"
   },
   "proxy": "http://206.189.136.28:5000/",
   "dependencies": {
