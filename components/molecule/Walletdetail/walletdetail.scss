@@ -1,0 +1,562 @@
+.walletmain {
+  width: 100%;
+}
+.walletmain::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.walletmain::-webkit-scrollbar-track {
+  background-color: #090909;
+}
+
+/* Handle */
+.walletmain::-webkit-scrollbar-thumb {
+  background: #090909;
+}
+.divdesign {
+  background-color: #1a8f85;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 12px;
+}
+
+.firstdiv {
+  width: 100%;
+  // background-color: antiquewhite;
+  margin-top: 2rem;
+}
+
+.seconddiv {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 1rem;
+  position: relative;
+  background-color: "black";
+  & .css-1dydcym-MuiTableCell-root {
+    border-bottom: none !important;
+  }
+  & .css-1wvnaxz-MuiTableCell-roo {
+    border-bottom: none !important;
+  }
+}
+
+// .seconddiv_wallet::-webkit-scrollbar {
+//   width: 5px;
+// }
+// .seconddiv_wallet::-webkit-scrollbar-track {
+//   box-shadow: inset 0 0 5px #000;
+//   border-radius: 10px;
+// }
+// .seconddiv_wallet::-webkit-scrollbar-thumb {
+//   background: #000;
+//   border-radius: 10px;
+// }
+// .seconddiv_wallet::-webkit-scrollbar-thumb:hover {
+//   background: #000;
+// }
+.seconddiv_wallet .css-6bz1ae-MuiTableCell-root-MuiTablePagination-root {
+  border: none;
+}
+.seconddiv_wallet .css-15n3elo {
+  border-bottom: 0;
+}
+.seconddiv_wallet .css-fgyrrh-MuiTablePagination-displayedRows {
+  display: none;
+}
+.seconddiv .css-sbj12o-MuiTablePagination-selectLabel {
+  display: none;
+}
+.seconddiv .css-pl4pdh-MuiInputBase-root-MuiTablePagination-select {
+  display: none;
+}
+// .seconddiv .css-30d4sn-MuiButtonBase-root-MuiTab-root{
+//   color: #fff;
+// }
+.spacedesigen {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+}
+.width {
+  width: 100%;
+}
+.givespace {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.boxdesigen {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.boxdesigen1 {
+  width: 10%;
+  height: 4rem;
+  border: 1px solid #1a8f85;
+  border-radius: 15px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 0.6rem;
+  & img {
+    width: 30px !important;
+  }
+}
+
+.amountdesign {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.amountdesign.active {
+  display: none;
+}
+.inputdesign {
+  width: 30%;
+  padding: 5px;
+  border-radius: 10px;
+  color: #505050;
+  outline: none;
+  background: transparent;
+  border: 2px solid #1a8f85;
+  padding-left: 10px;
+  margin-top: 7px;
+}
+// .inputdesign:hover {
+//   border: 2px solid #1a8f85;
+// }
+.balancedesigen {
+  font-size: 10px;
+  margin-top: 5px;
+}
+.submit {
+  text-align: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+// .submit.active{
+//   display: none;
+// }
+.submitbutton {
+  border-radius: 10px;
+  // background: linear-gradient(#1a8f85 0%, #00637B 100%);
+  background-image: linear-gradient(to right, #1a8f85, #00637b);
+  height: 2rem;
+  width: 20%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.submitbutton:hover {
+  background-image: linear-gradient(to right, #00637b, #1a8f85);
+}
+.donedesisen {
+  margin-left: 2.5rem;
+  margin-top: -5px;
+}
+.donedesisen.active {
+  visibility: hidden;
+}
+.donedesisen .css-i4bv87-MuiSvgIcon-root {
+  font-size: 15px;
+  color: green;
+}
+.seconddiv_wallet .css-heg063-MuiTabs-flexContainer {
+  display: -webkit-box;
+}
+.seconddiv_wallet .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  border: 1px solid #1a8f85;
+  border-radius: 5px;
+}
+.seconddiv_wallet .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  font-size: 10px !important;
+  margin: 15px 3px 15px 3px !important;
+  padding: 7px 7px !important;
+}
+.submitbtn_style {
+  padding: 0.5rem 1rem;
+  background: #2c9083;
+  color: #000;
+  width: 25%;
+}
+.sumbitbutton_style {
+  // text-align: center;
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.submitphoto_style {
+  width: 100%;
+}
+.idcardwrapper_style {
+  width: 40%;
+  margin: auto;
+}
+.uploadbtns_style {
+  display: flex;
+  // justify-content: center;
+}
+.upload-documnet_style {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  border-radius: 8px;
+  padding: 0.5rem 0.9rem;
+  cursor: pointer;
+  background: #2c9083;
+  color: #000;
+  // margin: auto;
+  width: 90%;
+}
+.upload-text_style {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+.submitphoto_style input[type="file"] {
+  display: none;
+}
+.photoname_style {
+  font-size: 10px;
+}
+.attention_style {
+  margin: 0 0 3rem 0;
+  text-align: center;
+}
+.photocheck_style {
+  margin-left: 1rem;
+}
+.photocheck_style svg {
+  color: #06950a;
+}
+.attentionicon_style svg {
+  font-size: 4rem;
+  color: orangered;
+}
+
+.paymentmethods {
+  margin-top: 1rem;
+
+  & .selectpayment {
+    font-size: 0.6rem;
+  }
+
+  & .selectcards {
+    display: flex;
+    & .singlecards {
+      width: 150px;
+      height: 90px;
+      cursor: pointer;
+      margin: 0 0.5rem;
+      background: #f2f2f4;
+      padding: 0.6rem;
+      color: #a1a4ab;
+      border-radius: 10px;
+      & .singlecarddetail {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & .cardimg {
+          width: 35px;
+          height: 35px;
+          & img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      &.selected {
+        background-color: #ffffff;
+        border: 3px solid #4c9de6;
+        color: #000;
+      }
+    }
+  }
+  & .paymentprocess {
+    font-size: 0.7rem;
+  }
+
+  & .Amountdetails {
+    display: flex;
+    margin-top: 0.6rem;
+    align-items: center;
+    justify-content: space-around;
+    & .amountinput {
+      & .amounttitle {
+        color: #a2a3a9;
+      }
+      & .inputamounts {
+        display: flex;
+        align-items: center;
+        & input {
+          background: transparent;
+          padding: 0.5rem;
+          outline: none;
+          border: 1px solid #a2a3a9;
+          color: #fff;
+          border-radius: 7px;
+        }
+      }
+    }
+    & .amountshow {
+      // margin-left: rem;
+      & .creditamount {
+        display: flex;
+        align-items: center;
+        & .amountcredit {
+          color: #d7d8db;
+          font-size: 0.8rem;
+          padding-right: 0.5rem;
+        }
+        & .boldamount {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  & .topups {
+    display: flex;
+    /* margin: 0.5rem 2.5rem; */
+    align-items: center;
+    width: 100%;
+    margin-top: 0.5rem;
+    justify-content: center;
+
+    & .topupbox {
+      margin: 0 0.5rem;
+      background: #f2f2f4;
+      color: #a9acb5;
+      padding: 0.3rem 0rem;
+      width: 40px;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 5px;
+      &.active {
+        background: #e7f3ff;
+        color: #0184fe;
+      }
+    }
+  }
+  & .rechargebtn {
+    text-align: center;
+    margin: 2rem auto;
+    width: 200px;
+    & .rechargebutton {
+      margin: 2rem 0;
+      padding: 0.3rem 0.6rem;
+      width: 100%;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      background: #1a8f85;
+      color: #fff;
+      border-radius: 7px;
+      cursor: not-allowed;
+      &.active {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.verify {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.seconddiv_wallet .css-132a6sb-MuiTableCell-root.MuiTableCell-body {
+  color: #fff;
+}
+.seconddiv_wallet .css-1bhpkcd-MuiTableCell-root.MuiTableCell-body {
+  color: #fff;
+}
+.amountstyle {
+  font-size: 10px;
+}
+.addmoney {
+  text-align: center;
+  // border: 2px solid red;
+  // margin-left: 15%;
+  // margin-right: 22%;
+  // overflow-y: scroll;
+  margin-top: 2rem;
+}
+.alldetailsa {
+  display: block;
+}
+.seconddiv_wallet .css-1dydcym-MuiTableCell-root {
+  color: #fff;
+}
+// .seconddiv .css-og52vs-MuiTableCell-root.MuiTableCell-head{
+//   background-color: #5c4033;
+// }
+// .seconddiv .css-i4bv87-MuiSvgIcon-root{
+//  color: #fff !important;
+// }
+// .seconddiv .css-i4bv87-MuiSvgIcon-root:hover{
+//   background-color: #000 !important;
+//  }
+.seconddiv_wallet .css-levciy-MuiTablePagination-displayedRows {
+  color: #fff !important;
+}
+.seconddiv_wallet .css-levciy-MuiTablePagination-displayedRows {
+  display: none;
+}
+.select {
+  width: 80%;
+  height: 4vh !important;
+  border-radius: 10px;
+  color: #505050;
+  outline: none;
+  background: #090909;
+  border: 2px solid #1a8f85;
+  padding-left: 10px;
+  // margin-top: 7px;
+  margin: 7px 0 0 0 !important;
+}
+.closepaypal.active {
+  display: none;
+}
+.closepaypal {
+  display: block;
+}
+.line {
+  align-self: center;
+  margin-left: 4px;
+}
+.ripple {
+  width: 2rem;
+  height: 2rem;
+  margin: 2rem;
+  border-radius: 50%;
+  border: 0.3rem solid #1a8f85;
+  transform: translate(50%);
+  animation: 1s ripple ease-out infinite;
+  text-align: center;
+  margin-left: 5rem;
+  // display: none;
+}
+.fontsize_style {
+  font-size: 8px;
+}
+.walletss {
+  // display: flex;
+}
+.divided_line {
+  width: 80%;
+  height: 1px;
+  background-color: #fff;
+  margin-left: 15px;
+}
+.seconddiv_wallet .css-1v5330x-MuiPaper-root-MuiTableContainer-root {
+  background-color: transparent;
+}
+.seconddiv_wallet .css-1uec44x-MuiTableCell-root {
+  color: #fff;
+}
+.seconddiv_wallet .css-ut2c5p-MuiTableCell-root {
+  color: #fff;
+}
+@keyframes ripple {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+//////////////////////
+
+.wallet_text_style {
+  font-size: 25px;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 3.5rem;
+}
+.dividedive2 {
+  background: #121418;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 3rem;
+}
+.seconddiv_wallet {
+  width: 100%;
+  min-height: 80vh;
+  max-height: 1800px;
+}
+.wallet_add_amount_style {
+  width: 28%;
+}
+.wallte_withdraw_style_para {
+  font-size: 20px;
+  font-weight: 700;
+}
+.seconddiv_wallet .css-30d4sn-MuiButtonBase-root-MuiTab-root {
+  color: #848484 !important;
+}
+.step1_wallet {
+  background-color: #1e1e1e;
+  padding: 15px;
+  margin-top: 1.5rem;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+}
+.varified_wallet_style {
+  background-color: #1e1e1e;
+  padding: 20px;
+  margin-top: 2rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reject_style1 {
+  background-color: #1e1e1e;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 1rem;
+  padding: 1px;
+}
+.margin_top_div {
+  margin-top: 2rem;
+}
+
+/////////////
+
+.cashfree_button_style_wallet {
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px;
+  background: #6631cc;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin: 10px 0 10px 0;
+}
+.paypal-powered-by{
+  display: none !important;
+}
+

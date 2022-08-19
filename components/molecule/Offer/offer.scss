@@ -1,0 +1,132 @@
+.offer_section {
+  padding: 30px 70px 30px 70px;
+  margin: 4rem auto;
+  width: 85%;
+  background-color: #303234;
+  // background-image: url("https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/04/banner-3.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+
+  & .inneroffer {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+
+    & .discounts_div {
+      align-content: center;
+      align-items: center;
+
+      & .discount_inner {
+        border-width: 0px 1px 0px 0px;
+        border-color: #ffffff;
+        transition: background 0.3s, border 0.3s, border-radius 0.3s,
+          box-shadow 0.3s;
+        padding: 0px 40px 0px 0px;
+        border-style: solid;
+        display: flex;
+
+        & .discount_title {
+          font-size: 7rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          line-height: 1em;
+          color: #f77c29;
+        }
+      }
+    }
+  }
+}
+
+.sub1 {
+  font-size: 2rem;
+    font-weight: 600;
+    color: #f77c29;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+
+}
+.sup {
+  font-size: 2.5rem;
+    font-weight: 600;
+    color: #f77c29;
+    margin-left: 0.5rem;
+    padding-top: 0.5rem;
+
+}
+.offer_right {
+  width: calc(100% - 220px);
+  display: flex;
+
+  & .offer_inner_right {
+    align-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 40px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    & .offer_title_conatiner {
+      width: auto;
+      margin-right: auto !important;
+
+      & .offer_title_inner {
+        margin: 1px 0px 0px 0px;
+        color: #eeeeee;
+        // font-size: 2.3rem;
+        // font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.25em;
+        letter-spacing: -0.75px;
+        & .offer_title_para {
+          font-size: 1.5rem;
+          font-weight: 400;
+          letter-spacing: 0;
+          text-transform: none;
+        }
+        & .black_span {
+          font-weight: 600;
+          padding: 0 5px;
+          background-color: #fff !important;
+          color: #000;
+          margin: 0 0.3rem;
+        }
+      }
+    }
+  }
+}
+
+
+.offer_button_conatiner{
+    width: auto;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem !important;
+
+    & .inner_button{
+        text-align: right;
+        & a{
+            background-color: transparent;
+            border-color: #fff;
+            border: 2px solid #eee;
+            outline: 0;
+            border-radius: 0;
+            color: #fff;
+            padding: 1rem 2rem;
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1;
+            text-transform: uppercase;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background-color: #fff;
+                color: #000;
+            }
+        }
+
+    }
+
+
+}

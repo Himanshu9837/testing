@@ -1,0 +1,36 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .rightchat {
+    position: fixed;
+    right: -100%;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    background: beige;
+    z-index: 6;
+    &.active{
+      right: 0%;
+      width: 60%;
+    }
+  }
+  .rightchatclose{
+    display: block;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .rightchat {
+    position: fixed;
+    right: -100%;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    background: beige;
+    z-index: 6;
+    &.active{
+      right: 0%;
+      width: 60%;
+    }
+  }
+  .rightchatclose{
+    display: block;
+  }
+}

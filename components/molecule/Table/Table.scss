@@ -1,0 +1,102 @@
+.table {
+  margin-top: -1rem;
+  width: 95%;
+  margin: auto;
+}
+.tableloder {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10rem;
+}
+.css-11bfvty-MuiToolbar-root-MuiTablePagination-toolbar {
+  min-height: 20px !important;
+}
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  width: 97%;
+  background: transparent;
+}
+.css-1wvnaxz-MuiTableCell-root {
+  padding: 10px;
+}
+.table .css-132a6sb-MuiTableCell-root {
+  color: #ecf0f1;
+  font-weight: 100;
+  text-align: center;
+  background-color: #090909;
+  & a {
+    color: #bb86fc;
+  }
+
+}
+
+.table .css-1wvnaxz-MuiTableCell-root.MuiTableCell-head {
+  background: #090909;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+.table .css-1217csg-MuiTable-root {
+  background-color: #090909;
+}
+
+.table .css-11bfvty-MuiToolbar-root-MuiTablePagination-toolbar {
+  color: #fff;
+}
+.table .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  color: #fff !important;
+}
+.sellerprofile {
+  width: 35px;
+  height: 30px;
+}
+.sellerprofile img {
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.details {
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  padding-left: 5px;
+  // height: 37px;
+  // width: 50%;
+  color: #696A6B;
+}
+.image_or_produntname_style{
+  cursor: pointer;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.6fr 3fr;
+}
+
+
+.changecurrency_price{
+  display: flex;
+  align-items: center;
+
+  & .usd_style_currency{
+    font-size: 10px;
+    margin-left: 4px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    width: auto;
+  }
+  .filter {
+    position: relative;
+  }
+}
+.css-fikjyc-MuiTableCell-root-MuiTablePagination-root{
+  border-bottom: 1px solid #1e1e1e;
+}
+.css-132a6sb-MuiTableCell-root {
+  border-bottom: none !important;
+}
+.MuiTableBody-root{
+border-bottom: none !important;
+}

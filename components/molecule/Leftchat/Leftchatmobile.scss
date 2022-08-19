@@ -1,0 +1,55 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .leftlogo{
+    text-align: center;
+    & svg{
+      width: 200px;
+    }
+  }
+  .leftchat {
+    // display: none;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in-out;
+    z-index: 5;
+    &.active {
+      transform: translateX(0);
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .welcomepage {
+    padding: 1rem;
+    // height: 90%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 759px) {
+
+  .leftlogo{
+    text-align: center;
+    & svg{
+      width: 200px;
+    }
+  }
+  .leftchat {
+    // display: none;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in-out;
+    z-index: 5;
+    &.active {
+      transform: translateX(0);
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .welcomepage {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .peoplesall{
+    width: 17rem;
+  }
+}

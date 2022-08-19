@@ -1,0 +1,205 @@
+.leftchat {
+  background: linear-gradient(rgb(142, 45, 226) 0%, rgb(74, 0, 224) 100%);
+
+  & .leftchatinner {
+    padding: 1rem;
+    cursor: pointer;
+
+    & .converstion {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1.5rem;
+      align-items: center;
+      & .convertiontextdiv {
+        & .covertiontxt {
+          color: #fff;
+        }
+      }
+      & .converstionicon {
+        border: 1px solid #fff;
+        padding: 0.1rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        & svg {
+          color: #fff;
+        }
+        &:hover {
+          background-color: #6a1aca;
+        }
+      }
+
+      & .convertiontextdiv{
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  & .peoplesall {
+    overflow-y: scroll;
+    height: 63vh;
+    margin-top: 1rem;
+
+    & .singlepeople {
+      display: flex;
+      position: relative;
+      align-items: center;
+      height: 3rem;
+      padding: 1rem 2.5rem;
+      cursor: pointer;
+      margin: 0.1rem 0;
+      & .singlepeopleimg {
+        // margin: auto;
+        // color: antiquewhite;
+        // background: #de2440;
+        // border-radius: 10px;
+
+        & svg {
+          font-size: 2rem;
+        }
+      }
+      & .nicksname {
+        padding-left: 1rem;
+        color: #fff;
+      }
+      &:hover {
+        background: #1f0242;
+      }
+      & .notification {
+        margin-right: 2rem;
+        position: absolute;
+        right: 0;
+        height: 1rem;
+        width: 1rem;
+        // background: linear-gradient(to botttom right,#38FBEF, #5BAFFC);
+        background: linear-gradient(rgb(142, 45, 226) 0%, rgb(74, 0, 224) 100%);
+        color:red;
+        justify-content: center;
+        padding: 0.6rem;
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        & .notifynumber{
+          font-size: 0.8rem;
+          font-weight: 800;
+        }
+      }
+      & .onlineicons{
+        color: #2ecc71;
+        margin-right: 1rem;
+        & svg{
+          font-size: 0.8rem;
+
+        }
+      }
+      & .offlineicons{
+        // font-size: 0.8rem;
+          margin-right: 1rem;
+        color: red;
+        & svg{
+          font-size: 0.8rem;
+
+        }
+      }
+    }
+    // & .singlepeople {
+    //   background: #6a1aca;
+    //   &:hover {
+    //     background: #2c035f;
+    //   }
+    // }
+    & .selected {
+      background: #1f0242;
+    }
+  }
+}
+.singlepeopleimg img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+.membernames {
+  margin-left: 10px;
+  margin-top: -15px;
+}
+.memberposition {
+  font-size: 11px;
+  margin-top: -16px;
+  color: #fff;
+}
+.membernamestxt {
+  font-weight: 700;
+  color: #fff;
+  font-size: 1rem;
+}
+/* width */
+.peoplesall::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.peoplesall::-webkit-scrollbar-track {
+  // background: #5306E1;
+  background: linear-gradient(rgb(142, 45, 226) 0%, rgb(74, 0, 224) 100%);
+}
+
+/* Handle */
+.peoplesall::-webkit-scrollbar-thumb {
+  background: #a9a9a9;
+}
+
+/* Handle on hover */
+.peoplesall::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.searchbar_style{
+  display: flex;
+  justify-content: center;
+}
+.tab_history{
+  width: 100%;
+}
+.search_input_style{
+   border: none;
+   outline: none;
+   width: 92%;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 30px;
+}
+.search_icon_style{
+  background-color: #fff;
+  border-radius: 10px;
+  align-self: center;
+}
+.chat_tab_style{
+  width: 100%;
+
+}
+.chat_tab_style .css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  background: transparent;
+  box-shadow: none;
+
+}
+.chat_tab_style .css-1vw5i9y-MuiButtonBase-root-MuiTab-root{
+  font-size: 10px;
+}
+.chat_tab_style .css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root{
+  width: 0px;
+}
+.chat_tab_style .css-19kzrtu{
+  padding: 0;
+}
+.combain_style{
+  background-color: #fff;
+  border-radius: 10px;
+  height: 30px;  
+  margin: auto;
+    margin-top: 1rem;
+    width: 80%;
+}
+.chat_tab_style .css-mranbp-MuiPaper-root-MuiAppBar-root{
+  background-color: transparent !important;
+}

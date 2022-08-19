@@ -1,0 +1,74 @@
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #000000 !important;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.css-khvgs2-MuiTableHead-root .MuiTableCell-root {
+  border-bottom: none;
+  font-size: 14px !important;
+  font-weight: 600;
+  line-height: 2 !important;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.css-ufn7ls-MuiTableCell-root {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 2 !important;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  display: table-cell;
+  vertical-align: inherit;
+  border-bottom: 1px solid rgba(252, 252, 253, 1);
+  text-align: center;
+  padding: 6px 16px;
+  color: #121828;
+}
+.dropdown-item dropdown-item {
+  background-color: red;
+}
+.dropdown-toggle btn btn-success {
+}
+
+///////////////////////
+/// 
+.popup_style_seller {
+  background-color:#111827 ;
+  position: absolute;
+  width: 80%;
+  height: auto;
+  top: 40%;
+  left: 13%;
+  display: none;
+  padding: 20px;
+}
+.popup_style_seller.active{
+  display: block;
+}
+.text_area_field1 {
+  border: 1px solid #5048e5;
+  outline: none;
+  margin-left: 30px;
+  color: #fff;
+  height: 90px;
+  padding: 5px;
+  background: #111827;
+}
+.col-md-41 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  color: #fff;
+}
+.disapproved_style_edit_para1 {
+  font-size: 14px;
+  color: #fff;
+}
+.update_seller_account{
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+    justify-content: space-evenly;
+}

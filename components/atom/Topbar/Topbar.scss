@@ -1,0 +1,19 @@
+.topbar {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: none;
+  & .topbaricon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  &.active{
+      display: block;
+  }
+}

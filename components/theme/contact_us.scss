@@ -1,0 +1,47 @@
+.contact_main_style{
+    padding: 2rem 3rem;
+}
+.contact_input_style{
+    margin-top: 3rem;
+}
+.contact_textarea{
+    color: #000;
+    width: 100%;
+}
+.contact_textarea2{
+    color: #000;
+    width: 100%;
+    height: 2rem;
+}
+.contact_textarea_select{
+    width: 100%;
+    height: 2rem;
+    cursor: pointer;
+}
+.contact_button{
+    width: 100%;
+    margin-top: 3rem;
+}
+.contact_backend_button{
+    width: 15%;
+    border-radius: 5px;
+    background-color: lightgreen;
+    outline: none;
+    border: none;
+}
+.contact_vali {
+    color: red;
+    /* background-color: red; */
+    text-align: start;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 1rem;
+}
+.contact_vali1 {
+    color: red;
+    /* background-color: red; */
+    text-align: start;
+    font-size: 11px;
+    height: 20px;
+    margin-top: -1rem; 
+}

@@ -1,0 +1,254 @@
+@media only screen and (min-width: 769px) and (max-width: 998px) {
+  .bannerinner {
+    width: 95%;
+    height: 100%;
+  }
+  .banners {
+    height: 280px;
+    & .serachbanner {
+      display: none;
+    }
+  }
+  .diveshow{
+    background-color: #00000f;
+  }
+  .bannerwrapper {
+    width: 100%;
+    & .titlebanner {
+      width: 100%;
+      margin-top: 1.5rem;
+
+      & .game {
+        font-size: 3.5rem;
+      }
+    }
+    & .banner_image_wrapper {
+      margin-left: -5rem;
+    }
+  }
+}
+@media only screen and (min-width: 620px) and (max-width: 768px) {
+  .banners {
+    height: 240px;
+
+    & .serachbanner {
+      display: none;
+    }
+
+    & .gameaccountsbutton {
+      padding: 0.6rem 1rem;
+      font-size: 0.8rem;
+    }
+  }
+  .diveshow{
+    background-color: #00000f;
+  }
+  .bannerwrapper {
+    width: 95%;
+    & .titlebanner {
+      font-size: 1.7rem;
+      line-height: 40px;
+
+      & .game {
+        font-size: 4.6rem;
+      }
+    }
+    & .banner_image_wrapper {
+      margin-left: -5rem;
+    }
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 620px) {
+  .banners {
+    height: 70vh;
+    // margin-top: 2.5rem;
+    & .serachbanner {
+      display: none;
+    }
+  }
+  .dropdown_style {
+    width: 40%;
+  }
+  .diveshow{
+    background-color: #00000f;
+  }
+  .bannerwrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 3rem;
+    & .banner_title {
+      // flex: 1;
+      grid-column-start: 1;
+      text-align: center;
+      margin-top: 0;
+      & .titlebanner {
+        width: 100%;
+        margin-top: 1.5rem;
+      }
+    }
+    & .banner_image {
+      grid-column-start: 1;
+      grid-row-start: 1;
+      & .banner_image_wrapper {
+
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .close {
+    margin: 1rem;
+    color: #fff;
+  }
+  .dropdown_style {
+    width: 40%;
+  }
+  .serachbannerresult {
+    top: 9rem;
+    width: 100%;
+  }
+  .diveshow{
+    background-color: #00000f;
+  }
+  .serachbanners {
+    position: relative;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 25px;
+    height: 60px;
+    padding: 1rem;
+    background: #1c093c;
+    margin-top: 2rem;
+
+    & .inputbanner {
+      & .inputtypebanner {
+        background: transparent;
+        outline: none;
+        // height: 60px;
+        border: none;
+        width: 100%;
+        color: #fff;
+        height: 100%;
+        padding-left: 1rem;
+        &:hover ~ .serachbanner {
+          background-color: #2284ad;
+        }
+      }
+    }
+    & .css-qc6sy-singleValue {
+      color: #fff;
+    }
+  }
+  .mobilesseacrhs {
+    display: none;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #00000f;
+    width: 100%;
+    height: 100vh;
+    &.active {
+      display: block;
+    }
+  }
+  .banners {
+    height: 100vh;
+    & .serachbanner {
+      display: none;
+    }
+    & .gameaccountsbutton {
+      padding: 0.6rem 1rem !important;
+      font-size: 0.8rem;
+    }
+    & .gameaccountbtn {
+      top: -3%;
+    }
+  }
+  .bannerwrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 3rem;
+    & .titlebanner {
+      width: 100%;
+     margin-top: 1rem;
+      & .game {
+        font-size: 4.6rem;
+      }
+    }
+    & .banner_title {
+      // flex: 1;
+      grid-column-start: 1;
+      text-align: center;
+      // margin-top: 0;
+    }
+    & .banner_image {
+      grid-column-start: 1;
+      grid-row-start: 1;
+
+      & .banner_image_wrapper {
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1020px) {
+  .close {
+    margin: 1rem;
+    color: #fff;
+  }
+  .diveshow{
+    background-color: #00000f;
+  }
+  .serachbannerresult {
+    top: 4rem;
+    width: 100%;
+  }
+  .serachbanners {
+    position: relative;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 25px;
+    height: 60px;
+    padding: 1rem;
+    background: #1c093c;
+
+    & .inputbanner {
+      & .inputtypebanner {
+        background: transparent;
+        outline: none;
+        // height: 60px;
+        border: none;
+        width: 100%;
+        color: #fff;
+        height: 100%;
+        padding-left: 1rem;
+        &:hover ~ .serachbanner {
+          background-color: #2284ad;
+        }
+      }
+    }
+    & .css-qc6sy-singleValue {
+      color: #fff;
+    }
+  }
+  .mobilesseacrhs {
+    display: none;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #00000f;
+    width: 100%;
+    height: 100vh;
+    &.active {
+      display: block;
+    }
+  }
+}

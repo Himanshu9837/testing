@@ -1,0 +1,26 @@
+.innerattention{
+    width: 100%;
+    height: 260px;
+    background-color: #000;
+    text-align: center;
+    padding: 1rem;
+
+}
+.attentiontitle{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.attentionicon{
+    margin: 2rem 0;
+
+}
+.attentionicon svg{
+    font-size: 4rem;
+    color: orangered;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .attentionicon svg{
+        font-size: 2.5rem;
+        // color: orangered;
+    }
+}

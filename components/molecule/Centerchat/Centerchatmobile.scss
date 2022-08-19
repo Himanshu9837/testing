@@ -1,0 +1,70 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .centerchat {
+       & .active{
+         display: none;
+       }
+        & .centerinnerchat {
+
+
+          & .centerhead {
+
+
+            & .introduction {
+
+              & .backicon{
+                display: block;
+              }
+
+
+            }
+          }
+
+
+        }
+      }
+      // .welcomepage {
+      //   display: none;
+      // }
+      .introtitle{
+        margin-left: -30%;
+      }
+      .backmsg{
+        display: block;
+      }
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 759px){
+    .centerchat {
+      & .active{
+        display: none;
+      }
+       & .centerinnerchat {
+
+
+         & .centerhead {
+
+
+           & .introduction {
+
+             & .backicon{
+               display: block;
+             }
+
+
+           }
+         }
+
+
+       }
+     }
+     // .welcomepage {
+     //   display: none;
+     // }
+     .introtitle{
+       margin-left: -30%;
+     }
+     .backmsg{
+       display: block;
+     }
+
+  }

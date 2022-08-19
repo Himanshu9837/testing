@@ -1,0 +1,12 @@
+.errorboxcontainer{
+    display: flex;
+    align-items: center;
+}
+
+/* .errorboxcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+} */

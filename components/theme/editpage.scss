@@ -1,0 +1,136 @@
+.main {
+  background-color: #ffffff;
+  margin: 40px;
+  margin-top: 60px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.customerlistresult{
+
+  & .MuiTablePagination-menuItem{
+    color: #000;
+  }
+}
+.second_main {
+  background-color: #ff4c3b;
+}
+.btn_div {
+  margin-top: 50px;
+  text-align: center;
+}
+.update_btn {
+  font-size: 14px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  background-color: #5048e5;
+  border-color: #ff8084 !important;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.row_top {
+  margin-top: 20px;
+}
+.input-title_customer {
+  margin: 2rem 0;
+  position: relative;
+  z-index: 55;
+
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+}
+.seletdivs{
+  color: white;
+}
+.searchoption_customer {
+  width: 17vh;
+  height: 40px;
+  border: 2px solid #000;
+  border-right: none;
+  outline: none;
+
+  background: #000 !important;
+  color: #fff;
+  position: absolute;
+  z-index: 5555;
+  // margin: 0 1rem !important;
+}
+.inputype_customer {
+  display: block;
+
+  padding: 0;
+  width: 250px;
+  background: transparent;
+  padding: 0.5rem 2rem;
+  position: relative;
+  height: 40px;
+  border: 2px solid #000;
+  color: black;
+}
+.inputype::placeholder {
+  color: #000;
+  display: none;
+}
+.search {
+  position: absolute;
+
+  top: 8px;
+  right: -20px;
+  align-items: center;
+  display: flex;
+}
+.btns {
+  background: #a3da8d;
+  outline: none;
+  border: none;
+  padding: 0.4rem 1.6rem;
+  cursor: pointer;
+  color: #000;
+  position: relative;
+  border-radius: 6px;
+}
+.filterbtn {
+  margin: 0.8rem -6rem;
+}
+.actions {
+  position: absolute;
+  right: 2rem;
+}
+
+@media (max-width: "760px") {
+  .input-title {
+    max-width: 350px;
+  }
+  .searchoption {
+    width: 130px;
+  }
+  .inputype {
+    width: 220px;
+  }
+}

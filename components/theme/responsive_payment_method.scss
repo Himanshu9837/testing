@@ -1,0 +1,33 @@
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .configuration .paymentdetailsoption .rightsidediv .rightsidehead .paymentcode {
+        font-size: 12px !important;
+    }
+    .configuration .paymentdetailsoption .singledetailoption .detailsdropdown .selecteddropdowns{
+        width: 250px !important;
+    }
+    .configuration{
+        padding: 0rem !important;
+    }
+    .configuration .paymentdetailsoption{
+        width: 100% !important;
+    }
+    .configuration .paymentdetailsoption .singledetailoption .detailsdropdown .selecteddropdowns{
+        width: 260px !important;
+    }
+    .configuration .paymentdetailsoption .singledetailoption{
+        display: block !important;
+        margin: 0.5rem !important;
+    }
+    .configuration .paymentdetailsoption .singledetailoption .detailsdropdown{
+        margin-left: 2rem !important;
+    }
+   .paymentfeessetting{
+       margin-left: 1rem !important;
+   }
+   .configuration .paymentdetailsoption .singledetailoption .detailshead{
+       margin-left: 1rem !important;
+   }
+   .configuration .paymentdetailsoption .rightsidediv .rightsidedetailss .inputone input{
+       width: 40px;
+   }
+}

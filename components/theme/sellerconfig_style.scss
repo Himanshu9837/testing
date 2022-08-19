@@ -1,0 +1,92 @@
+.formselectbackend{
+  margin-left: 2rem;
+}
+.div{
+  margin: 30px;
+
+}
+.globalbtn{
+  margin: 1rem 0;
+  background: #000;
+}
+.divided{
+
+  display: flex;
+ 
+  height: 70vh;
+
+}
+.partition{
+  width: 30%;
+ 
+}
+.partition3{
+  width: 30%;
+}
+.partition2{
+  width: 100%;
+  margin-top: 17px;
+  
+}
+.globalstyle{
+
+  margin: 20px;
+}
+.text_color{
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.divider{
+  border-top: 1px solid #bbb;
+  margin-top: -11px;
+}
+.divider2{
+  border-left: 2px solid #bbb;
+  margin: 19px;
+}
+.flex_div{
+  display: flex;
+  
+  width: 100%;
+}
+.seller_approval{
+  margin-top: 30px;
+  display: flex;
+}
+.item_style{
+  color: black !important;
+}
+.form-select {
+  width: 75% !important;
+}
+.para_style{
+  font-size: 12px !important;
+}
+
+.para_div_style{
+  margin-left: 40px;
+}
+.div_error{
+  width: 84%;
+}
+
+@media (max-width:'760px') {
+  .partition{
+    width: 100%;
+  }
+  .divided{
+    flex-wrap: wrap;
+  }
+.divider2{
+  display: none;
+}
+.toggledivs{
+  width: 100%;
+}
+
+.divider{
+  display: none;
+}
+ }

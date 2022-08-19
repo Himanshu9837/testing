@@ -1,0 +1,166 @@
+// footer{
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+// }
+.footer {
+  // margin-top: 2.5rem;
+  width: 100%;
+  height: auto;
+  background: #1e1e1e;
+}
+
+.footer-top {
+
+  background: #151D3B;
+}
+.footertopinner{
+  padding: 2rem 9rem;
+  // height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  max-width: 1300px;
+}
+.information_wrapper {
+  padding: 1.2rem 0;
+  margin-left: -0.5rem;
+}
+
+.innerlist {
+  list-style: none;
+  padding: 0.3rem 0;
+  font-size: 0.8rem;
+}
+.innerlist a{
+    position: relative;
+}
+.innerlist a:hover::after{
+    width: 100%;
+}
+.innerlist a::after{
+    content: '';
+    background-color: #FFA300;
+    left: 2px;
+    width: 0%;
+    height: 1px;
+    display: block;
+    position: absolute;
+    transition: 0.5s all ease-in-out;
+    margin-top: 0.1rem;
+}
+.innerlist a:hover{
+  color: #03dac5;
+}
+.copyright {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    margin: 1.6rem 0;
+}
+.footer-bottom{
+
+    padding: 2rem 0;
+    background: #151D3B;
+    width: 100%;
+}
+.socialwrapper{
+  padding: 0.5rem;
+  margin: 0 0.6rem;
+  cursor: pointer;
+  // background-color: #1e1e1e;
+  border-radius: 23px;
+  color: white;
+  border: 1px solid #443a3a;
+    & img{
+      max-width: 20px !important;
+    }
+  }
+    .socialwrapper svg{
+      font-size: 1.6rem;
+      color: white;
+    }
+#facebook{
+  height: 45px;
+  width: 45px;
+  color: white;
+}
+
+#facebook svg {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+
+#facebook:hover{
+  background-color: #093266;
+}
+#twitter:hover{
+  background-color: #1DA1F2;
+}
+#linkedin:hover{
+  background-color: #0077B5;
+}
+#instagram:hover{
+  background: linear-gradient(to top right, yellow 0%, yellow 5%, red 45%, #ff1493 60%, #1e90ff 90%);
+}
+
+.copyrightdesc{
+    color: #fff;
+    font-size: 0.8rem;
+}
+.payment-label{
+  height: 4.6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  justify-content: center;
+}
+
+.image-container{
+  margin: 31px;
+}
+.setfacebook{
+  left: 2px;
+  margin: 2.9px;
+}
+.innersection{
+  padding-left: 0rem;
+}
+.informhead{
+  font-size: 1.2rem;
+  color: #fff;
+}
+.payment-icon{
+  grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.popular_style{
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.popular_div{
+  display: flex;
+  justify-content: center;
+}
+.game_display{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.footer_game_color{
+  color: #fff;
+  padding: 20px;
+}

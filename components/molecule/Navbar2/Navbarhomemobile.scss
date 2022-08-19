@@ -1,0 +1,315 @@
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .searchicon_style2{
+    display: block;
+    width: 100%;
+    text-align: end;
+  }
+  .shoppingcart{
+    justify-content: center;
+  }
+  .searchicon{
+    display: none;
+  }
+  .mobilcarts{
+    display: flex;
+    align-items: center;
+  }
+
+  .sellnowhomebtn{
+    padding: 0.5rem 6rem;
+  }
+  .cartsicon{
+    display: none;
+  }
+  .hideuser{
+    display: none;
+  }
+
+  .navbar2 .rightnavbarwrapperhome .flag .indiatext{
+    color: #fff;
+  }
+    .closeicon{
+        display: block;
+        cursor: pointer;
+      }
+      .navbar_wrapper1 {
+        //   display: flex;
+        // justify-content: flex-start !important;
+        & .logo {
+          margin-left: 0.6rem;
+        }
+        & .menu {
+          display: block;
+          cursor: pointer;
+        }
+        .sellnowhomebtn{
+          // padding: 0.5rem 6rem;
+          width: 100%;
+        }
+
+      }
+  .navbar2 {
+    & .rightnavbar.active {
+      left: 0;
+      padding: 1rem;
+    }
+    & .rightnavbar {
+      color: #fff;
+      position: fixed;
+      top: 0;
+      left: -100%;
+      transition: all 0.6s ease-in-out;
+      width: 350px;
+      height: 100%;
+      background-color: #000;
+      z-index: 66;
+      & .rightnavbarwrapperhome {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30%;
+      }
+    }
+  }
+.sellbutton{
+    padding: 1.2rem 0;
+}
+  .flag{
+    color: #fff;
+      padding-bottom: 1rem;
+  }
+  .navbar2 .rightnavbarwrapperhome .loginbutton{
+      padding-bottom: 1rem;
+  }
+  .buttonss{
+    padding: 0.5rem 6rem;
+    color: #000;
+  }
+  .mobileheader{
+      display: flex;
+  }
+
+}
+@media only screen and (min-width: 100px) and (max-width: 480px) {
+  .cartsicon{
+    display: none;
+  }
+  .social_icon_style{
+    padding: 1rem 1rem 0 1rem;
+    position: absolute;
+    bottom: 0;
+    top: 75vh;
+  }
+  .hideuser{
+    display: none;
+  }
+  .showdashboradmenu{
+    color: #fff;
+  }
+  .mobilcarts{
+    display: flex;
+    align-items: center;
+  }
+
+  .rightnavbarwrapperhome {
+    & .allsellbtn{
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  .navbar2 .rightnavbarwrapperhome .flag .indiatext{
+    color: #fff;
+  }
+    .closeicon{
+        display: block;
+      }
+  .navbar_wrapper1 {
+    //   display: flex;
+    // justify-content: flex-start !important;
+    & .logo {
+      margin-left: 0.6rem;
+    }
+    & .menu {
+      display: block;
+    }
+
+
+  }
+  .navbar2 {
+    & .rightnavbar.active {
+      left: 0;
+      padding: 1rem;
+    }
+    & .rightnavbar {
+        color: #fff;
+      position: fixed;
+      top: 0;
+      left: -100%;
+      transition: all 0.6s ease-in-out;
+      width: 80%;
+      height: 100%;
+      background-color: #000;
+      z-index: 66;
+
+    }
+  }
+  .rightnavbarwrapperhome {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .sellnowhomebtn{
+
+    width: 100%;
+  }
+  .shoppingcart{
+    justify-content: start;
+  }
+//   .sellbtn{
+//     padding-bottom: 1rem;
+//   }
+.sellbutton{
+    padding: 1.2rem 0;
+    width: 100%;
+}
+  .flag{
+      padding-bottom: 1rem;
+      color: #fff;
+  }
+  .navbar2 .rightnavbarwrapperhome .loginbutton{
+      padding-bottom: 1rem;
+  }
+  .buttonss{
+    padding: 0.5rem 6rem;
+    color: #000;
+  }
+  .mobileheader{
+      display: flex;
+  }
+  .showbox{
+    bottom: -8rem;
+    // right: 4.5rem;
+    background: #7f8c8d;
+    &:before{
+      background: #7f8c8d;
+    }
+  }
+  .searchicon_style2{
+    display: block;
+    width: 100%;
+    text-align: end;
+    margin-right: 0.5rem;
+  }
+  .searchicon{
+    display: none;
+  }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .searchicon_style2{
+    display: block;
+    width: 100%;
+    text-align: end;
+  }
+  .social_icon_style{
+    padding: 1rem 1rem 0 1rem;
+    position: absolute;
+    bottom: 0;
+    top: 80vh;
+  }
+  .shoppingcart{
+    justify-content: center;
+  }
+  .searchicon{
+    display: none;
+  }
+  .mobilcarts{
+    display: flex;
+    align-items: center;
+  }
+
+  .sellnowhomebtn{
+    padding: 0.5rem 6rem;
+  }
+  .cartsicon{
+    display: none;
+  }
+  .hideuser{
+    display: none;
+  }
+
+  .navbar2 .rightnavbarwrapperhome .flag .indiatext{
+    color: #fff;
+  }
+    .closeicon{
+        display: block;
+      }
+  // .navbar_wrapper {
+  //   & .logo {
+  //     margin-left: 0.6rem;
+  //   }
+  //   & .menu {
+  //     display: block;
+  //   }
+  // }
+  .navbar_wrapper1 {
+    //   display: flex;
+    // justify-content: flex-start !important;
+    & .logo {
+      margin-left: 0.6rem;
+    }
+    & .menu {
+      display: block;
+    }
+    .sellnowhomebtn{
+      // padding: 0.5rem 6rem;
+      width: 100%;
+    }
+
+  }
+  .navbar2 {
+    & .rightnavbar.active {
+      left: 0;
+      padding: 1rem;
+    }
+    & .rightnavbar {
+        color: #fff;
+      position: fixed;
+      top: 0;
+      left: -100%;
+      transition: all 0.6s ease-in-out;
+      width: 80%;
+      height: 100%;
+      background-color: #000;
+      z-index: 66;
+      & .rightnavbarwrapperhome {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30%;
+      }
+    }
+  }
+.sellbutton{
+    padding: 1.2rem 0;
+}
+  .flag{
+    color: #fff;
+      padding-bottom: 1rem;
+  }
+  .navbar2 .rightnavbarwrapperhome .loginbutton{
+      padding-bottom: 1rem;
+  }
+  .buttonss{
+    padding: 0.5rem 6rem;
+    color: #000;
+  }
+  .mobileheader{
+      display: flex;
+  }
+}
+@media only screen and (min-width:1123) and (max-width: 1231) {
+  .changestyle{
+    width: 97%;
+  }
+}

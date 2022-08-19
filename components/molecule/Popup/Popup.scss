@@ -1,0 +1,66 @@
+.popups {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  & .popupinner {
+    width: 350px;
+    height: 400px;
+    background: #000;
+    padding: 1rem;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & .popupicon {
+      width: 120px;
+    }
+    & .popupdetails {
+      margin-top: 3rem;
+      text-align: center;
+      & .popupdteialsinner {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #fff;
+      }
+    }
+    & .closeiconss {
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      cursor: pointer;
+    }
+    &.active{
+        display: flex;
+    }
+  }
+}
+
+.paypals{
+    position: absolute;
+    z-index: 5;
+    overflow-y: scroll;
+    height: 250px;
+     
+}
+.paypals .paypal-powered-by{
+  display: none !important;
+}
+.paypals::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.paypals::-webkit-scrollbar-track {
+  background-color: #121418;
+}
+
+/* Handle */
+.paypals::-webkit-scrollbar-thumb {
+  background: #121418;
+}
+// .paypals::-webkit-scrollbar-thumb:hover {
+//   background: #000;
+// }

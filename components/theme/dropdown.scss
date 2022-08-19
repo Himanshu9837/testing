@@ -1,0 +1,44 @@
+
+.MuiButton-root{
+  align-items: flex-start !important;
+}
+.MuiListItem-gutters{
+display: contents !important;
+padding-right: 0 !important;
+}
+.MuiListItemText-inset{
+padding-left: 1px !important;
+}
+
+.title {
+  display: flex;
+}
+.MuiListItemText-root{
+
+margin-left: -6rem;
+  & span:hover{
+    color: #3498db;
+  }
+}
+// .innerdivs{
+
+// width: 100%;
+// }
+.MuiListItem-root {
+align-items: flex-start !important;
+}
+.scrollbar-container{
+  overflow: auto;
+}
+// .css-i9gxme{
+//   width: 25vw;
+// }
+.MuiTouchRipple-root{
+  display: none;
+}
+
+.sidebarss{
+  & .MuiTypography-displayBlock{
+    margin-left: -6rem;
+  }
+}

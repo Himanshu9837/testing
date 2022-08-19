@@ -1,0 +1,36 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  // .input-title{
+  //     margin: 2rem 0;
+  // }
+  //   .searchoption {
+  //     width: 37%;
+  //   }
+  //   .search {
+  //     // left: 16rem ;
+  //     display: none;
+  //   }
+  //   .inputype {
+  //     width: 58% ;
+  //     padding: 0.5rem 1rem;
+  //     margin-left: 8rem;
+  //   }
+  //   .filters {
+  //     display: none;
+  //   }
+  //   .actions {
+  //     display: none;
+  //   }
+  .actions {
+    grid-column: 2;
+    // margin: 1rem 0rem;
+    margin-left: -10rem;
+}
+
+.filters{
+      margin: 1rem 0rem;
+    grid-column: 1;
+  }
+  .searchoption {
+    width: auto !important;
+  }
+}

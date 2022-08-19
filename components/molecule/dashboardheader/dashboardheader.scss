@@ -1,0 +1,30 @@
+.dashboardheader{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.menuing_class{
+    width: 30px;
+    height: 30px;
+}
+.menu_img_style{
+    text-align: end;
+    padding: 10px;
+    & .css-i4bv87-MuiSvgIcon-root {
+        font-size: 2.5rem;
+        color: #7d7d7d;
+        cursor: pointer;
+    }
+}
+.seller_style_circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.img_circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

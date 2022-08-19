@@ -1,0 +1,29 @@
+.welcomepage {
+  background: linear-gradient(
+    to bottom right,
+    #dd95f7 0%,
+    #9aadf9 50%,
+    #7fc9d9 100%
+  );
+  padding: 2.5rem;
+  & .welcomeimg {
+    width: 60%;
+    margin: 1rem auto;
+  }
+  .welcometitle {
+      margin-top: 3rem;
+      & .titleinnerwelcome {
+        padding: 1.5rem 0;
+      color: #2c3e50;
+      font-weight: 600;
+    }
+    & .welcomepara{
+        color: #fff;
+        margin-bottom: 0.6rem;
+    }
+    & .welcomespan{
+        color: #e74c3c;
+        font-weight: 800;
+    }
+  }
+}

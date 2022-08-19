@@ -1,0 +1,143 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  .update{
+    width: 70%;
+  }
+  .inform-inner {
+    grid-template-columns: 1fr;
+    & .inputs {
+      width: 315px;
+    }
+  }
+  #detsss {
+    width: 315px;
+  }
+  .bar {
+    width: 260px;
+  }
+  .profileimg {
+    width: 350px;
+    height: 300px;
+    margin: auto;
+  }
+  .defaultimg {
+    & img {
+      width: 350px;
+      height: 300px;
+    }
+  }
+  .email.active{
+    margin-left: 20px;
+  }
+
+  .css-13xfq8m-MuiTabPanel-root {
+    padding: 5px;
+  }
+
+  .users {
+    margin: 0.5rem;
+  }
+  .custom-file-upload{
+      padding: 0;
+      font-size: 0.5rem;
+  }
+  .uploadbtn{
+      right: 0.3rem;
+  }
+  .currentpassword.active{
+      // display: contents;
+      margin-left: 20px;
+  }
+  .basic-inform{
+    display: flex;
+    justify-content: center;
+  }
+  .updatebtn{
+    text-align: center;
+    margin: 3rem 0;
+  }
+  .updatebutton {
+    margin: 0rem 1rem 1rem 1rem;
+}
+.usersdetails .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  min-height: 20px !important;
+  padding: 4px 3px !important;
+  min-width: 60px !important;
+  margin: 15px;
+}
+}
+
+
+
+
+@media only screen and (min-width: 461px) and (max-width: 768px) {
+
+  .update{
+    width: 70%;
+  }
+  .inform-inner {
+    grid-template-columns: 1fr;
+    & .inputs {
+      width: 315px;
+    }
+  }
+  #detsss {
+    width: 315px;
+  }
+  .bar {
+    width: 260px;
+  }
+  .profileimg {
+    width: 350px;
+    height: 300px;
+    margin: auto;
+  }
+  .defaultimg {
+    & img {
+      width: 350px;
+      height: 300px;
+    }
+  }
+  .email.active{
+    margin-left: 20px;
+  }
+
+  .css-13xfq8m-MuiTabPanel-root {
+    padding: 5px;
+  }
+
+  .users {
+    margin: 0.5rem;
+  }
+  .custom-file-upload{
+      padding: 0;
+      font-size: 0.5rem;
+  }
+  .uploadbtn{
+      right: 0.3rem;
+  }
+  .currentpassword.active{
+      // display: contents;
+      margin-left: 20px;
+  }
+  .basic-inform{
+    display: flex;
+    justify-content: center;
+  }
+  .updatebtn{
+    text-align: center;
+    margin: 3rem 0;
+  }
+  .updatebutton {
+    margin: 0rem 1rem 1rem 1rem;
+}
+.usersdetails .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  min-height: 20px !important;
+  padding: 4px 3px !important;
+  min-width: 60px !important;
+  margin: 15px;
+}
+}
+
+
+

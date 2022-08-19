@@ -1,0 +1,529 @@
+.gamecard {
+  width: 100%;
+  margin: auto;
+  padding: 2rem 0;
+  overflow-x: hidden;
+
+  // height: 35rem;
+
+  // .gamecard .sellinggame
+
+  & .sellinggame {
+    display: flex;
+    // align-items: center;
+    justify-content: left;
+    font-size: 2rem !important;
+    color: #fbb03b;
+    max-width: 1359px;
+    margin: auto;
+  }
+
+  & .cards_game {
+    max-height: 400px;
+    // background: linear-gradient(to right, #090c36, #00000f 7%,#00000f 92%, #090c36 );
+    // background-color: #6a0dad;
+    border-radius: 15px;
+    height: 230px;
+    // margin-top: 6rem;
+    margin: 7rem auto;
+    max-width: 1300px;
+
+    // min-width: 1000px;
+    // padding: 0rem 3rem;
+
+    & .innercardwrapperss {
+      display: flex;
+      justify-content: space-between;
+      width: 92%;
+      margin: auto;
+      transition: ease 1000ms;
+      white-space: nowrap;
+
+      // style={{ transform: `translate3d(${-index *10}%, 0, 0)` }}
+      // overflow-x: hidden;
+      // overflow-y: visible;
+      // margin: auto;
+    }
+  }
+}
+
+
+
+.sliderouterdivs {
+  max-width: 1400px;
+  margin: auto;
+}
+.card_gamewrapper {
+  display: flex;
+}
+.cardsimages {
+  height: 230px;
+  margin-top: 0rem;
+  margin-left: -2.5rem;
+  transition: all 0.3s ease-in-out;
+  // position: absolute;
+  // transition: all 0.3s ease-in-out;
+  // left: -35%;
+
+  & img {
+    // // width: 100%;
+    // // height: 100%;
+    // height: 82%;
+    // /* top: 34%; */
+    // margin-left: 17px;
+    // margin-top: 25px;
+    height: 80%;
+    /* top: 34%; */
+    margin-left: 21px;
+    margin-top: 35px;
+    margin-right: -8px;
+  }
+}
+
+.imageloogo {
+  margin-top: 1.5rem;
+  & img {
+    max-width: 150px;
+  }
+}
+
+.cardss:hover .cardsimages {
+  transform: scale(1.1);
+}
+.slideshowSlider {
+  display: flex;
+}
+// .slideshowSlider {
+//
+//
+//   height: 300px;
+//   width: 80%;
+//   overflow: hidden;
+// }
+.slideshowDot.active {
+  background-color: #6a0dad;
+}
+.slideshowDots {
+  text-align: center;
+  margin-top: 6rem;
+  color: rgb(241, 237, 237);
+  display: flex;
+  justify-content: center;
+}
+
+// .slideshowDot {
+//   display: inline-block;
+//   height: 12px;
+//   width: 12px;
+//   border-radius: 50%;
+//   cursor: pointer;
+//   margin: 15px 7px 0px;
+//   background-color: #c4c4c4;
+// }
+.left {
+  cursor: pointer;
+  left: 0;
+  margin: 0 -1.5rem;
+  z-index: 555;
+  & svg {
+    font-size: 2rem !important;
+  }
+}
+
+.left svg:hover {
+  color: rgb(233, 159, 21);
+}
+
+// .allgamecard{
+//   // background-color: #fbb03b;
+// }
+
+.valorant::after {
+  background-color: #9d68ff;
+}
+.dota2::after {
+  background-color: #f14f4e;
+}
+.coc::after {
+  background-color: #715e56;
+}
+.freefire::after {
+  background-color: #febc83;
+}
+.fornite::after {
+  background-color: #87a3fc;
+}
+.mincraft::after {
+  background-color: #b8e281;
+}
+// .COC::after{
+//   background-color: #9d68ff;
+// }
+.gennis::after {
+  background: #349c7c;
+}
+
+// .cardss::before{
+//   content: "";
+//   position:absolute;
+//   top:0;
+//   height: 100%;
+//   width: 100%;
+//   left:0;
+//   height: 80%;
+//   // -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+//   // clip-path: polygon(100% 0, 0 0, 100% 100%);
+//   clip-path: inset(10px round 70px 10px 10px 10px);
+//   border-radius: 5em;
+//   background-color: red;
+
+// }
+
+$slide-count: 5;
+$slide-width: 30rem;
+
+.carousel__wrap {
+  margin-top: 10%;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel__inner {
+  height: 40rem;
+  position: relative;
+  width: calc(#{$slide-width * 3});
+}
+
+.carousel__container {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.carousel__slide-list {
+  height: 100%;
+  left: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform: translateX(-50%);
+  width: calc(#{($slide-count + 0.5) * $slide-width * 2});
+}
+
+.carousel__slide-item {
+  display: inline-block;
+  height: $slide-width;
+  margin: 0;
+  padding: 1rem;
+  position: absolute;
+  transition: all 0.3s;
+  width: $slide-width;
+}
+
+.carousel__slide-item-img-link {
+  cursor: zoom-in;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    width: 100%;
+  }
+
+  &::after {
+    align-items: center;
+    background: rgba(black, 0.5);
+    color: white;
+    content: "read more";
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    width: 100%;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+
+    img {
+      transform: scale(1.3);
+    }
+  }
+}
+
+.carousel-slide-item__body {
+  bottom: -2.5rem;
+  height: 10%;
+  position: absolute;
+
+  h4 {
+    margin: 0.7rem 0 0;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin: 0.7rem 0 0;
+  }
+}
+
+.carousel__btn {
+  align-items: center;
+  background: 0;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  &--prev {
+    left: -10rem;
+  }
+
+  &--next {
+    right: -10rem;
+  }
+}
+
+.carousel__btn-arrow {
+  border: solid black;
+  border-width: 0 0.4rem 0.4rem 0;
+  height: 6rem;
+  padding: 3px;
+  width: 6rem;
+  z-index: 10;
+
+  &--left {
+    transform: rotate(135deg);
+  }
+
+  &--right {
+    transform: rotate(-45deg);
+  }
+}
+
+.carousel__dots {
+  display: inline-block;
+  left: 50%;
+  margin-top: 2rem;
+  position: absolute;
+  transform: translateX(-50%);
+
+  .dot {
+    background: #ccc;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 2rem;
+    margin: 0 0.3rem;
+    outline: none;
+    transform: scale(0.5);
+    width: 2rem;
+
+    &.active {
+      background: black;
+    }
+  }
+}
+
+.cardslider_outer {
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  &::before {
+    background: linear-gradient(
+      -90deg,
+      #0b0f17,
+      rgba(11, 15, 23, 0.75) 50%,
+      rgba(11, 15, 23, 0.25) 75%,
+      rgba(11, 15, 23, 0)
+    );
+    pointer-events: none;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    z-index: 2;
+  }
+
+  & .cardslider_inner {
+    position: relative;
+    transition: opacity 0.2s ease;
+    overflow: unset !important;
+    &::after {
+      background: linear-gradient(
+        90deg,
+        #0b0f17,
+        rgba(11, 15, 23, 0.75) 50%,
+        rgba(11, 15, 23, 0.25) 75%,
+        rgba(11, 15, 23, 0)
+      );
+      pointer-events: none;
+      position: absolute;
+      content: "";
+      top: 0;
+      bottom: 0;
+      width: 50px;
+      z-index: 2;
+    }
+  }
+}
+
+.cardslider_inner2 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: flex;
+  position: relative;
+  left: -50%;
+}
+
+.singlecard_slider {
+  padding-right: 15px;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  width: auto !important;
+
+  & article {
+    display: block;
+  }
+  & .game_card_picker {
+    overflow: hidden;
+    transition: background-color, transform 0.1s ease-in-out;
+    border: 1px solid #23272f;
+    background-color: #23272f;
+    cursor: pointer;
+    position: relative;
+    border-radius: 6px;
+    display: block;
+    width: 175px;
+    flex: 0 0 auto;
+
+
+
+    & .game_image_conatiner {
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid #23272f;
+      background-color: #0b0f17;
+      height: 0;
+      padding-bottom: 133.33%;
+      width: 100%;
+      & img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+
+.sweerperdiv{
+
+  max-width: 1400px;
+  margin: auto;
+
+
+
+
+  & .innersweep{
+    position: relative;
+    transition: opacity .2s ease;
+    overflow: unset!important;
+    &::before{
+      right: 0;
+      background: linear-gradient(-90deg,#00000f,rgba(0,0,0,.75) 50%,rgba(0,0,0,.25) 75%,rgba(0,0,0,0));
+      pointer-events: none;
+      position: absolute;
+      content: "";
+      top: 0;
+      bottom: 0rem;
+      width: 130px;
+      z-index: 2;
+    }
+    &::after{
+      left: 0;
+      background: linear-gradient(90deg,#00000f,rgba(0,0,0,.75) 50%,rgba(0,0,0,.25) 75%,rgba(0,0,0,0));
+      pointer-events: none;
+      position: absolute;
+      content: "";
+      top: 0;
+      bottom: 0;
+      width: 130px;
+      z-index: 2;
+    }
+  }
+
+}
+
+.gamecard_section{
+  width: 85%;
+  margin: 1rem auto;
+}
+
+.slick-next {
+  right: -19px !important;
+}
+.game_card_name{
+  padding: 15px 20px;
+
+  & .game_card_title{
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #23272f;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+  }
+
+  & .game_card_info_conatiner{
+    display: block;
+    padding: 0;
+    & span{
+      text-align: center;
+      display: block;
+      font-size: 11px;
+      color: #bebebe;
+    }
+  }
+
+
+}

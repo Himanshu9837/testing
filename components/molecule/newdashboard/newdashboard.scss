@@ -1,0 +1,199 @@
+.mydashboard{
+    font-size: 25px;
+    font-weight: 800;
+}
+.dashboarddiv2{
+    background-color: #FCC799;
+    width: auto;
+    border-radius: 10px;
+    height: 220px;
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+}
+.dashboarddiv2_verified{
+    background-color: #01C29A;
+    width: auto;
+    border-radius: 10px;
+    height: 220px;
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+}
+.dashboarddiv2_img{
+    height: 220px;
+    width: 220px;
+}
+.text_paragraph{
+    width: 50%;
+    padding: 3rem;
+}
+.text_paragraph1{
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgdiv_dashboard{
+    width: 50%;
+    text-align: center;
+}
+.sell_coller{
+    color: #000;
+    font-weight: 700;
+    font-size: 35px;
+}
+.game_sell_color{
+    color: #000;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 0.3;
+}
+.submit_class{
+    font-size: 16px;
+    color: #60554C;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.hear_class{
+    color: #682A00;
+    margin-left: 0.5rem;
+}
+.dashboard_inner_all_div{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard_inner_class{
+    width: 23%;
+    height: 150px;
+    background-color: #C197FC;
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+.dashboard_inner_class_active{
+    width: 23%;
+    height: 150px;
+    background-color: #C197FC;
+    border-radius: 15px;
+    padding: 20px;
+    opacity: 0.1;
+    cursor: no-drop;
+}
+
+.dashboard_inner_class1{
+    width: 23%;
+    height: 150px;;
+    background-color: #F8FD99;
+    border-radius: 15px;
+    padding: 20px;
+}
+.dashboard_inner_class2{
+    width: 23%;
+    height: 150px;
+    background-color: #00C39A;
+    border-radius: 15px;
+    padding: 20px;
+}
+.dashboard_inner_class3{
+    width: 23%;
+    height: 150px;
+    background-color: #FCC799;
+    border-radius: 15px;
+    padding: 20px;
+}
+.dashboard_inner_class3_active{
+    width: 23%;
+    height: 150px;
+    background-color: #FCC799;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: no-drop;
+    opacity: 0.1;
+}
+.sold_style{
+    // padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sold_name_style{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.order_name_style{
+color: #383838;
+font-size: 18px;
+font-weight: 700;
+line-height: 1;
+
+}
+.icon_shopping_style{
+ & .css-i4bv87-MuiSvgIcon-root {
+    font-size: 2rem;
+    color: #000;
+}
+}
+.bottom_div_class{
+    display: flex;
+    padding-top: 2rem;
+}
+.order_number_style{
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+}
+.date_order_style{
+    color: #4D4D4D;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+.overview_style{
+    color: #A3A3A3;
+    font-size: 16px;
+    font-weight: 700;
+}
+.overview_div{
+    margin-top: 2rem;
+}
+.seller_verification{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.imag_flex_style{
+    display: flex;
+    margin-top: 1rem;
+}
+.image_style_circle{
+    border-radius: 30%;
+    height: 35px;
+    width: 35px;
+    background-color: #00E567;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_style_circle2{
+    border-radius: 30%;
+    height: 35px;
+    width: 35px;
+    background-color: #00E7B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gameaccount_style_dashboard{
+    display: flex;
+}
+.game_text_style{
+    padding: 10px;
+    color: #4D4D4D;
+    font-size: 14px;
+}
+.activeservice_style{
+    color: #383838;
+    font-size: 14px;
+}

@@ -1,0 +1,104 @@
+@media (max-width: 1024px) {
+  //  .rightpannel_wrapper{
+  //     overflow-x: scroll;
+  // }
+  .topbox::after {
+    background: none;
+  }
+  .controlbutton::after {
+    background: none;
+  }
+  #pannel1 {
+    display: none;
+  }
+
+  .mainview_wrapper {
+    flex-wrap: wrap;
+    & .rightpannel {
+      margin-left: 0;
+      margin-top: 1rem;
+      opacity: 0.8;
+    }
+  }
+
+
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root::-webkit-scrollbar-track {
+    background: #1e1e1e;
+  }
+
+  /* Handle */
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root::-webkit-scrollbar-thumb {
+    background: #000;
+  }
+  //   .leftpannel_wrapper{
+  //       margin: auto;
+  //   }
+  //   .searchoption {
+  //     width: 15% !important;
+  //   }
+  //   .search {
+  //     left: 16rem !important;
+  //   }
+  //   .rightpannel{
+  //     content: "";
+  //     width: 100%;
+  //     height: 100%;
+  //     top: 0;
+  //     left: 0;
+  //     position: absolute;
+
+  // }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .innerverify {
+    grid-template-columns: 1fr;
+    padding: 0.8rem;
+  min-height: 380px;
+  }
+  .requiredbtn{
+    margin: auto;
+
+  }
+  .upload-documnet{
+    // width: 35%;
+    margin: 0.5rem;
+  }
+  .photocheck{
+    position: relative;
+    left: 0;
+  }
+  .authorize {
+    font-size: 0.6rem;
+    width: 110px;
+    color: #fff;
+  }
+  .verification {
+    font-size: 0.6rem;
+    width: 115px;
+  }
+  .main-content .uncheckicon {
+    margin: 1rem auto;
+  }
+//   .attentionicon svg{
+//     font-size: 2rem;
+//     // color: orangered;
+// }
+  .attentiontitle {
+    font-size: 1rem;
+  }
+  .attentiontext {
+    color: #fff;
+    font-size: 0.6rem;
+
+  }
+  .uncheckicon svg {
+    // color: #e74c3;
+    font-size: 2.5rem;
+  }
+}

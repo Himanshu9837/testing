@@ -1,0 +1,209 @@
+.savedetails {
+  padding: 0.4rem 1.3rem;
+  border: none;
+  outline: none;
+  background: #8e44ad;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 7px;
+  &:hover {
+    background: #9b59b6;
+  }
+}
+
+.adminprofiles {
+  position: relative;
+  cursor: pointer;
+
+  & .logoutbox {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    background: #8e44ad;
+    padding: 0.6rem;
+    display: none;
+    right: 1px;
+    top: 56px;
+    border-radius: 10px;
+    & .innerlogout {
+      display: flex;
+      cursor: pointer;
+      justify-content: center;
+      align-items: center;
+      background: #9b59b6;
+      padding: 0.2rem;
+      border-radius: 10px;
+      &:hover{
+          color: #000;
+      }
+    }
+    &.active{
+        display: block;
+    }
+  }
+}
+
+
+
+my-app {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    min-height: 80px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+@keyframes k-loading-animation  {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.k-i-loading.k-example-loading {
+    font-size: 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(144,152,165);
+}
+
+.k-i-loading.k-example-loading::before,
+.k-i-loading.k-example-loading::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    content: "";
+    box-sizing: inherit;
+    border-radius: 50%;
+    border-width: .05em;
+    border-style: solid;
+    border-color: currentColor;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    background-color: transparent;
+}
+.k-icon.k-i-loading.k-example-loading::before,
+.k-icon.k-i-loading::after {
+    content: "";
+}
+
+.k-i-loading.k-example-loading::before {
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    width: 1em;
+    height: 1em;
+    animation: k-loading-animation .7s linear infinite;
+}
+
+.k-i-loading.k-example-loading::after {
+    margin-top: -0.25em;
+    margin-left: -0.25em;
+    width: .5em;
+    height: .5em;
+    animation: k-loading-animation reverse 1.4s linear infinite;
+}
+
+.example-wrapper {
+    min-height: 280px;
+    align-content: flex-start;
+}
+.example-wrapper p, .example-col p {
+    margin: 20px 0 10px;
+}
+.example-wrapper p:first-child, .example-col p:first-child {
+    margin-top: 0;
+}
+.example-col {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.example-config {
+    margin: 0 0 20px;
+    padding: 20px;
+    background-color: rgba(0,0,0,.03);
+    border: 1px solid rgba(0,0,0,.08);
+}
+.event-log {
+    margin: 0;
+    padding: 0;
+    max-height: 100px;
+    overflow-y: auto;
+    list-style-type: none;
+    border: 1px solid rgba(0,0,0,.08);
+    background-color: white;
+}
+.event-log li {
+    margin: 0;
+    padding: .3em;
+    line-height: 1.2em;
+    border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.event-log li:last-child {
+    margin-bottom: -1px;
+}
+.k-treeview {
+  color: #424242;
+}
+
+.k-treeview-md {
+  font-size: 14px;
+  line-height: 1.4285714286;
+}
+.k-treeview {
+  padding: 0;
+  border-width: 0;
+  background: none;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.4285714286;
+  display: block;
+  cursor: default;
+  overflow: auto;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.k-treeview-group {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  outline: 0;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.k-treeview *, .k-treeview *::before, .k-treeview *::after {
+  box-sizing: border-box;
+}
+.k-treeview-item {
+  outline-style: none;
+  margin: 0;
+  padding: 0 0 0 16px;
+  border-width: 0;
+  display: block;
+}
+.k-treeview-top, .k-treeview-mid, .k-treeview-bot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+.k-animation-container {
+  border-radius: 0 0 4px 4px;
+}
+.k-animation-container-relative {
+  position: relative;
+  display: inline-block;
+}
+

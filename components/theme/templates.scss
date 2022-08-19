@@ -1,0 +1,69 @@
+.templates {
+  // width: 80%;
+  // margin: 1rem auto;
+
+  // padding: 1rem 2rem;
+  // background: #bdc3c7;
+  // border-radius: 8px;
+  // box-shadow: 1px 1px 10px;
+  & .divimage{
+    // text-align: center;
+    & span{
+      max-width: 70% !important;
+    }
+  }
+  & .tenplatetitle {
+    // font-size: 1.4rem;
+    // font-weight: 700;
+    // margin-bottom: 2.5rem;
+  }
+  & .tenplatedesc {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-top: 0.6rem;
+
+  }
+  & .emails {
+    font-size: 0.9rem;
+    font-weight: 900;
+  }
+  & .light {
+    display: block;
+  }
+  & .footerdivs {
+    // text-align: center;
+    // padding: 2rem 0;
+    & .footer_templete {
+      // font-size: 1.3rem;
+      // font-weight: 700;
+    }
+    & .socialicons{
+        display: flex;
+        justify-content: center;
+        & .icons{
+            cursor: pointer;
+            margin-top: 0.6rem;
+            margin: 0.5rem;
+            & a{
+              color: #000;
+
+
+            }
+            &:hover a{
+              color: gray;
+            }
+        }
+    }
+  }
+}
+.one_template {
+  margin-bottom: 3.5rem;
+}
+
+.account_backend_note {
+  // padding: 0 0.3rem;
+  // color: #f39c11;
+}
+.note{
+  padding-top: 2rem;
+}

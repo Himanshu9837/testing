@@ -1,0 +1,212 @@
+.navbar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 80px;
+  position: relative;
+}
+.logoss{
+  & svg{
+    width: 120px !important;
+  }
+}
+.toggledashboard {
+  display: none;
+}
+.usermenus{
+ & svg{
+   color: #fff;
+ }
+}
+.navbar_wrapper {
+  width: 95%;
+  padding: 2rem 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+.logo {
+  width: 145px;
+  text-transform: uppercase;
+}
+
+.logo svg {
+  width: 100%;
+}
+.buttonss {
+  padding: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 700;
+}
+.sellnowbtn {
+  background: #fafcfc;
+  font-weight: 900;
+}
+.rightnavbarwrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0 15px;
+  align-items: center;
+}
+.loginbtns {
+  background: #35373a;
+  color: #fff;
+}
+.signup {
+  background: #a3da8d;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+cursor: pointer;
+  &:hover {
+    background: #2ecc71;
+    color: #fff;
+  }
+}
+.usermenu {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.usernames{
+  font-size: 1.7rem;
+    width: 10rem;
+    line-height: 1.4rem;
+}
+.menus {
+  display: none;
+  color: #fff;
+}
+
+.flag svg {
+  width: 25px;
+}
+.shoppingcart {
+  display: flex;
+  // margin-left: -7rem;
+  position: relative;
+  width: 50px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: start;
+}
+.one {
+  color: #fff;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -35%;
+    left: 20%;
+    position: absolute;
+}
+.closeuser {
+  display: none;
+}
+// .usermenus{
+//   display: none;
+// }
+#hidenavbar {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: all 0.6s ease-in-out;
+  width: 300px;
+  height: 100%;
+  background-color: #34495e;
+  z-index: 66;
+}
+#hidenavbaractive {
+  color: #fff;
+  position: fixed;
+  padding: 1rem;
+  top: 0;
+  right: 0%;
+  transition: all 0.6s ease-in-out;
+  width: 300px;
+  height: 100%;
+  background-color: #34495e;
+  z-index: 66;
+}
+
+.rightnavbarwrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30%;
+}
+.sellbutton {
+  // padding: 1.2rem 0;
+  margin: 0 0.7rem;
+}
+.buttonss {
+  padding: 0.5rem 6rem;
+  color: #000;
+}
+.usermenu {
+  & svg {
+    font-size: 2.5rem !important;
+  }
+}
+.closeuser {
+  & svg {
+    font-size: 2rem;
+  }
+}
+.userheaders {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  // .usermenus{
+  //   display: block;
+  // }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .allcard {
+    margin: 1rem auto;
+  }
+  .toggledashboard {
+    display: block;
+  }
+  .menus {
+    display: block;
+  }
+  .leftpannel {
+    top: 0rem;
+    left: -100%;
+    z-index: 666;
+    /* background: blanchedalmond; */
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    transition: all 0.6s ease-in-out;
+    &_wrapper {
+      background: #2c2c54;
+      width: 100%;
+    }
+  }
+  .leftpannel.active {
+    left: 0;
+  }
+}
+.notification{
+  font-size: 12px;
+}
+@media (max-width: 480px) {
+  .allcard {
+    flex-direction: column;
+  }
+  .card3 {
+    margin-top: 1rem;
+  }
+}

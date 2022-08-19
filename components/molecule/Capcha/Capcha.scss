@@ -1,0 +1,118 @@
+.containercapcha {
+  width: 90%;
+  margin: 1rem auto;
+  & .capchainner {
+    & .randomnumber {
+      text-align: center;
+      margin: 0.5rem 0;
+      border-radius: 10px;
+      width: 100px;
+      padding: 0.6rem 0.3rem;
+      background: #222222;
+      margin: auto;
+      & .captcha {
+        color: #fff;
+        font-size: 0.9rem;
+        text-decoration-line: line-through;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+      }
+    }
+    & .entercapcha {
+      display: flex;
+      // width: 80%;
+      justify-content: center;
+
+      align-items: center;
+      & input {
+        // width: 75%;
+        background: transparent;
+        border-bottom: 1px solid;
+        /* border: none; */
+        border-bottom: 1px solid #fff;
+        border: 0 1px 0 1px;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        outline: none;
+        border-radius: 0;
+        color: #fff;
+        font-size: 0.8rem;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      & .reload {
+        color: #fff;
+      }
+    }
+    & .verifycapchabtn {
+      margin: 0.5rem;
+      text-align: center;
+
+      & .verifycapchabtns {
+        cursor: pointer;
+        color: teal;
+        &:hover{
+          color: #2ecc71;
+        }
+      }
+    }
+  }
+}
+
+.completed {
+  text-align: center;
+  & svg {
+    font-size: 2.5rem;
+    color: green;
+  }
+}
+
+.smalls {
+  width: 200px !important;
+}
+.bigs {
+  width: 250px !important;
+}
+.App{
+  // margin-left:1.5rem ;
+
+  & .rc-anchor-light.rc-anchor-normal{
+    width: 90% !important;
+  }
+  & .rc-anchor-normal .rc-anchor-checkbox-label{
+    width: 94px;
+  }
+  & .rc-anchor-logo-portrait{
+    margin: 10px 0 0 0 !important;
+  }
+}
+// .capcha_1{
+//   height: 70px;
+//  width: 279px;
+// }
+// .rc-anchor-normal {
+//   height: 70px;
+//   width: 279px;
+//   }
+//   .rc-anchor-logo-portrait {
+//     margin: 9px 0 0 9px;
+//     width: 58px;
+//     -webkit-user-select: none;
+//   }
+//   .rc-anchor-normal .rc-anchor-pt {
+//     margin: 2px 27px 0 0;
+//     padding-right: 2px;
+//     position: absolute;
+//     right: 0;
+//     text-align: right;
+//     width: 276px;
+//     }
+    .rc-anchor-light.rc-anchor-normal{
+      width: 90% !important;
+    }

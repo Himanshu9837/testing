@@ -1,0 +1,84 @@
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {   //----not to edit
+  .gamecard_section{
+    width: 100%;
+  }
+  .gamecard {
+    width: 98%;
+    & .cards_game {
+      width: 1080px;
+      height: 250px;
+      & .card_gamewrapper {
+        & .cardss {
+          margin: -1rem 2rem;
+        }
+      }
+    }
+    & .allgamecard {
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+    //   height: 600px;
+    }
+  }
+  .cardsimages {
+    width: 140px;
+    margin-left: 0;
+    & img{
+      // width: 100%;
+        width: 227px;
+        margin-left: -43px;
+    }
+  }
+  .slideshowDots {
+    display: none;
+  }
+
+  .sweerperdiv{
+padding: 0;
+  }
+
+
+  .singlecard_slider {
+    & .game_card_picker {
+      width: 165px;
+    }
+  }
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 700px){
+
+  .singlecard_slider {
+    & .game_card_picker {
+      width: 150px;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 701px) and (max-width: 1200px){
+  .singlecard_slider {
+    & .game_card_picker {
+      width: 200px;
+    }
+  }
+}
+
+
+
+
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+  .singlecard_slider {
+    & .game_card_picker {
+      width: 190px;
+    }
+  }
+}
+
