@@ -1,5 +1,5 @@
 import React from "react";
-import {DashboardLayout} from '../components/dashboard-layout';
+import {DashboardLayout} from '../../components/dashboard-layout';
 import Seller from './seller';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
