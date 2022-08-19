@@ -4,8 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "next -p 3000",
-    "build": "next build"
+    "start": "next -p 3000"
   },
   "proxy": "http://206.189.136.28:5000/",
   "dependencies": {
