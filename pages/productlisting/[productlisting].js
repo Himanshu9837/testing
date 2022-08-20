@@ -11,7 +11,7 @@ import Header from "../../components/molecule/Navbar2/Navbarhome";
 // import CloseIcon from "@mui/icons-material/Close";
 import { useRouter } from "next/router";
 import axios from "axios";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 import Link from "next/link";
 import { ToastContainer, toast } from "react-toastify";
 import Slider, { SliderThumb } from "@mui/material/Slider";
@@ -24,28 +24,22 @@ import AddOutlinedIcon from "@mui/icons-material/AddOutlined";
 import RemoveOutlinedIcon from "@mui/icons-material/RemoveOutlined";
 import Contextapi from "../../Context/Contextapi.js";
 
-const TablePagination = dynamic(() => import("@mui/material/TablePagination"));
+import TablePagination from "@mui/material/TablePagination";
 // const useTheme = dynamic(() => import("@mui/material/styles"));
-const IconButton = dynamic(() => import("@mui/material/IconButton"));
-const FirstPageIcon = dynamic(() => import("@mui/icons-material/FirstPage"));
-const KeyboardArrowLeft = dynamic(() =>
-  import("@mui/icons-material/KeyboardArrowLeft")
-);
-const KeyboardArrowRight = dynamic(() =>
-  import("@mui/icons-material/KeyboardArrowRight")
-);
-const LastPageIcon = dynamic(() => import("@mui/icons-material/LastPage"));
-const Tooltip = dynamic(() => import("@mui/material/Tooltip"));
-const FilterAltOutlinedIcon = dynamic(() =>
-  import("@mui/icons-material/FilterAltOutlined")
-);
+import IconButton from "@mui/material/IconButton";
+import FirstPageIcon from "@mui/icons-material/FirstPage";
+import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
+import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
+import LastPageIcon from "@mui/icons-material/LastPage";
+import Tooltip from "@mui/material/Tooltip";
+import FilterAltOutlinedIcon from "@mui/icons-material/FilterAltOutlined";
 import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
 import ExpandLessOutlinedIcon from "@mui/icons-material/ExpandLessOutlined";
 // const styled = dynamic(() => import("@mui/material/styles"));
-const CloseIcon = dynamic(() => import("@mui/icons-material/Close"));
-const Stack = dynamic(() => import("@mui/material/Stack"));
-const LocalMallIcon = dynamic(() => import("@mui/icons-material/LocalMall"));
-const Box = dynamic(() => import("@mui/material/Box"));
+import CloseIcon from "@mui/icons-material/Close";
+import Stack from "@mui/material/Stack";
+import LocalMallIcon from "@mui/icons-material/LocalMall";
+import Box from "@mui/material/Box";
 // const Slider = dynamic(() => import("@mui/material/Slider"));
 // const SliderThumb = dynamic(() => import("@mui/material/Slider"));
 import Skeleton from "react-loading-skeleton";
