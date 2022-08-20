@@ -26,7 +26,7 @@ const Gamecard = () => {
   const [gamenumber, setgamenumber] = useState([]);
 
   useEffect(() => {
-    fetch(`${apiKey}api/category/allbasecategory`)
+    fetch(apiKey + "api/category/allbasecategory")
       .then((res) => res.json())
       .then((data) => {
         setlength(data.length);
@@ -108,9 +108,7 @@ const Gamecard = () => {
             </div>
             <div className="sweerperdiv">
               <div className="innersweep">
-              {console.log(cards)}
-                {/* <Slider {...settings}>
-                  {console.log(cards)}
+                <Slider {...settings}>
                   {cards.map((name, index) => (
                     <>
                       {gamenumber.map((number, index2) => (
@@ -155,7 +153,7 @@ const Gamecard = () => {
                       ))}
                     </>
                   ))}
-                </Slider> */}
+                </Slider>
               </div>
             </div>
           </section>
