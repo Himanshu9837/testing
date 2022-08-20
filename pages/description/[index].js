@@ -9,13 +9,13 @@ import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
 import { useRouter } from "next/router";
 import PersonIcon from "@mui/icons-material/Person";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 import BorderColorIcon from "@mui/icons-material/BorderColor";
 // import Contextapi from "../../Context/Contextapi.js";
 
 
-const Box = dynamic(() => import("@mui/material/Box"));
-const Typography = dynamic(() => import("@mui/material/Typography"));
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 // const Header = dynamic(() =>
 //   import("../../components/molecule/Navbar2/Navbarhome")
 // );

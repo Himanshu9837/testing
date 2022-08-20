@@ -1,13 +1,9 @@
 import React, { useContext, useState } from "react";
-const DoneIcon = dynamic(() => import("@mui/icons-material/Done"));
-import dynamic from "next/dynamic";
+import DoneIcon from "@mui/icons-material/Done";
+// import dynamic from "next/dynamic";
 import Contextapi from "../../../Context/Contextapi.js";
-const AddModeratorIcon = dynamic(() =>
-  import("@mui/icons-material/AddModerator")
-);
-const CheckCircleOutlineIcon = dynamic(() =>
-  import("@mui/icons-material/CheckCircleOutline")
-);
+import AddModeratorIcon from "@mui/icons-material/AddModerator";
+import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import Link from "next/link";
 import ChatIcon from "@mui/icons-material/Chat";
 import { ToastContainer, toast } from "react-toastify";
