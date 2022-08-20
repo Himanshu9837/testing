@@ -80,9 +80,9 @@ export default function index(articles1) {
 }
 export const getServerSideProps = async (context) => {
   const apiKey = process.env.NEXT_PUBLIC_API_URL;
-  const res1 = await fetch(`https://esports4g.com/api/admin/fetchmatapages/Digital Gameaccounts`)
+  const res1 = await fetch(`${apiKey}api/admin/fetchmatapages/Digital Gameaccounts`)
    const articles1 = await res1.json()
-   const res2 = await fetch(`https://esports4g.com/api/admin/fetchladingpage`)
+   const res2 = await fetch(`${apiKey}api/admin/fetchladingpage`)
    const articles2 = await res2.json()
   return {
     // Approvisionnement des props de notre page
