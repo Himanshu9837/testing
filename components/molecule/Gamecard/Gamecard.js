@@ -26,7 +26,7 @@ const Gamecard = () => {
   const [gamenumber, setgamenumber] = useState([]);
 
   useEffect(() => {
-    fetch(apiKey + "api/category/allbasecategory")
+    fetch(`${apiKey}api/category/allbasecategory`)
       .then((res) => res.json())
       .then((data) => {
         setlength(data.length);
