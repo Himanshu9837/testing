@@ -108,7 +108,9 @@ const Gamecard = () => {
             </div>
             <div className="sweerperdiv">
               <div className="innersweep">
-                <Slider {...settings}>
+              {console.log(cards)}
+                {/* <Slider {...settings}>
+                  {console.log(cards)}
                   {cards.map((name, index) => (
                     <>
                       {gamenumber.map((number, index2) => (
@@ -153,7 +155,7 @@ const Gamecard = () => {
                       ))}
                     </>
                   ))}
-                </Slider>
+                </Slider> */}
               </div>
             </div>
           </section>
