@@ -719,14 +719,14 @@ export default function HomePage(articles1) {
 export const getServerSideProps = async (context) => {
   const apiKey = process.env.NEXT_PUBLIC_API_URL;
   const metaurls = [];
-  const res = await fetch(`${apiKey}api/category/allbasecategory`);
+  const res = await fetch(`https://esports4g.com/api/category/allbasecategory`);
 
   const articles = await res.json();
   for (let i = 0; i < articles.length; i++) {
     const setmetadesicription = articles[i].metaurl;
     metaurls.push(setmetadesicription);
   }
-  const res1 = await fetch(`${apiKey}api/admin/fetchmatapages/Homepage`);
+  const res1 = await fetch(`https://esports4g.com/api/admin/fetchmatapages/Homepage`);
 
   const articles1 = await res1.json();
 
