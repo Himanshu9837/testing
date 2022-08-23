@@ -19,11 +19,7 @@ module.exports = {
     autoprefixer: {},
   },
 }
-module.exports = {
-    optimization: {
-        runtimeChunk: 'single'
-    }
-}
+
 module.exports = { trailingSlash: true, }
 
 module.exports = {
