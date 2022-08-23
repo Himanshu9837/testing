@@ -1,19 +1,17 @@
-const withSass = require("@zeit/next-sass");
-const withCss = require("@zeit/next-css");
-const withTM = require("next-transpile-modules");
-module.exports = {
-  webpack(config, { isServer }) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ["@svgr/webpack"]
-    });
 
-    return config;
-  },
+// module.exports = {
+//   webpack(config, { isServer }) {
+//     config.module.rules.push({
+//       test: /\.svg$/,
+//       use: ["@svgr/webpack"]
+//     });
+
+//     return config;
+//   },
 
 
 
-}
+// }
 module.exports = {
   plugins: {
     autoprefixer: {},
@@ -26,53 +24,53 @@ module.exports = {
   basePath: '/public/static/images',
 }
 
-module.exports = {
-  webpack: (config, { isServer }) => {
-    // Fixes npm packages that depend on fs module
-    if (!isServer) {
-      config.node = {
-        fs: 'empty'
-      }
-    }
+// module.exports = {
+//   webpack: (config, { isServer }) => {
+//     // Fixes npm packages that depend on fs module
+//     if (!isServer) {
+//       config.node = {
+//         fs: 'empty'
+//       }
+//     }
 
-    return config
-  }
-}
+//     return config
+//   }
+// }
 
-module.exports = {
-  /* ... */
-  webpack(config) {
-    config.plugins = config.plugins.filter(plugin => {
-      return plugin.constructor.name !== 'ReactFreshWebpackPlugin';
-    });
+// module.exports = {
+//   /* ... */
+//   webpack(config) {
+//     config.plugins = config.plugins.filter(plugin => {
+//       return plugin.constructor.name !== 'ReactFreshWebpackPlugin';
+//     });
 
-    return config;
-  },
-};
+//     return config;
+//   },
+// };
 
-module.exports = {
-  target: 'serverless',
-  webpack: function (config) {
-    config.module.rules.push({ test: /\.md$/, use: 'raw-loader' })
-    config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' })
-    return config
-  }
-}
-
-
+// module.exports = {
+//   target: 'serverless',
+//   webpack: function (config) {
+//     config.module.rules.push({ test: /\.md$/, use: 'raw-loader' })
+//     config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' })
+//     return config
+//   }
+// }
 
 
-module.exports = {
-  optimization: {
-    runtimeChunk: true
-  },
-  //...
-  output: {
-    devtoolModuleFilenameTemplate: info => {
-      return `webpack:///${info.resourcePath}?${info.loaders}`;
-    }
-  }
-};
+
+
+// module.exports = {
+//   optimization: {
+//     runtimeChunk: true
+//   },
+//   //...
+//   output: {
+//     devtoolModuleFilenameTemplate: info => {
+//       return `webpack:///${info.resourcePath}?${info.loaders}`;
+//     }
+//   }
+// };
 
 module.exports = {
   images: {
