@@ -19,6 +19,7 @@ module.exports = {
     autoprefixer: {},
   },
 }
+
 module.exports = { trailingSlash: true, }
 
 module.exports = {
