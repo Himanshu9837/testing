@@ -1,18 +1,14 @@
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
-const ArrowCircleLeftOutlinedIcon = dynamic(() =>
-  import("@mui/icons-material/ArrowCircleLeftOutlined")
-);
-const Box = dynamic(() => import("@mui/material/Box"));
+import ArrowCircleLeftOutlinedIcon from "@mui/icons-material/ArrowCircleLeftOutlined";
+import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
-const ArrowCircleRightOutlinedIcon = dynamic(() =>
-  import("@mui/icons-material/ArrowCircleRightOutlined")
-);
-const Button = dynamic(() => import("@mui/material/Button"));
+import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined"
+import Button from "@mui/material/Button";
 
 import Zoom from "react-img-zoom";
 
-const ReactImageMagnify = dynamic(() => import("react-image-magnify"));
+import ReactImageMagnify from "react-image-magnify";
 
 const { useEffect, useRef } = React;
 
