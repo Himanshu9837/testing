@@ -58,8 +58,15 @@ module.exports = {
 //   }
 // }
 
-
-
+module.exports = {
+  hmr: false
+}
+module.exports = {
+  webpackDevMiddleware: config => {
+    config.lazy = true;
+    return config;
+  },
+};
 // module.exports = {
 //   optimization: {
 //     runtimeChunk: true
