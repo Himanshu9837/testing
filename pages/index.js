@@ -729,7 +729,6 @@ export const getServerSideProps = async (context) => {
     metaurls.push(setmetadesicription);
   }
   const res1 = await fetch(`${apiKey}api/admin/fetchmatapages/Homepage`);
-
   const articles1 = await res1.json();
 
   return {
