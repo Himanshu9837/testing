@@ -26,8 +26,9 @@ import { useRouter } from "next/router";
 // const Countries = [{ label: "Game Account", value: "Game" }];
 import ScrollAnimation from "react-animate-on-scroll";
 
-export default function HomePage(articles1) {
-  console.log(articles1);
+// export default function HomePage(articles1) {
+  const HomePage = (articles1) => {
+  // console.log(articles1);
   const postData = articles1.articles1;
   const links = articles1.metaurls;
   const apiKey = process.env.NEXT_PUBLIC_API_URL;
@@ -716,6 +717,7 @@ export default function HomePage(articles1) {
     </>
   );
 }
+export default HomePage;
 export const getServerSideProps = async (context) => {
   const apiKey = process.env.NEXT_PUBLIC_API_URL;
   const metaurls = [];

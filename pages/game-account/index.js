@@ -9,8 +9,9 @@ import Footer from "../../components/molecule/Footer/footer.js";
 import Offer from "../../components/molecule/Offer/offer.js";
 import Contextapi from "../../Context/Contextapi.js";
 import Head from 'next/head';
-console.log(Footer);
-export default function index(articles1) {
+// console.log(Footer);
+// export default function index(articles1) {
+  const index = (articles1) => {
   const postData=articles1.articles1;
   const bannerdata=articles1.articles2;
   const bannerheading=bannerdata.topheading;
@@ -78,6 +79,7 @@ export default function index(articles1) {
     </>
   );
 }
+export default index;
 export const getServerSideProps = async (context) => {
   const apiKey = process.env.NEXT_PUBLIC_API_URL;
   const res1 = await fetch(`${apiKey}api/admin/fetchmatapages/Digital Gameaccounts`)
