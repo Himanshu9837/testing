@@ -180,7 +180,8 @@ function valuetext(value) {
   return value;
 }
 // const ProductListing = () => {
-export default function ProductListing({ postData, pid }) {
+// export default function ProductListing({ postData, pid }) {
+  const ProductListing = ({ postData, pid }) => {
   console.log(pid);
   const canonicalURL = `http://206.189.136.28:3010/categories/${pid}`;
   console.log(postData);
@@ -1243,6 +1244,8 @@ export default function ProductListing({ postData, pid }) {
 //   }));
 //   return { paths, fallback: false };
 // }
+
+export default ProductListing;
 export async function getServerSideProps({ query }) {
   const apiKey = process.env.NEXT_PUBLIC_API_URL;
   const pid = query.productlisting;

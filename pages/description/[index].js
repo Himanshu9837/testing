@@ -62,7 +62,8 @@ function a11yProps(index) {
   };
 }
 
-export default function UserDescription({ postData }) {
+// export default function UserDescription({ postData }) {
+  const UserDescription = ({ postData }) => {
   const apiKey = process.env.NEXT_PUBLIC_API_URL;
 
   const router = useRouter();
@@ -197,6 +198,7 @@ export default function UserDescription({ postData }) {
     </div>
   );
 }
+export default UserDescription;
 export async function getServerSideProps({ query }) {
   const apiKey = process.env.NEXT_PUBLIC_API_URL;
   const pageRequest = `${apiKey}api/product/productdetails/${query.index}`;
