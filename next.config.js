@@ -13,17 +13,17 @@
 
 // }
 
-// module.exports = {
-//   plugins: {
-//     autoprefixer: {},
-//   },
-// }
+module.exports = {
+  plugins: {
+    autoprefixer: {},
+  },
+}
 
-// module.exports = { trailingSlash: true, }
+module.exports = { trailingSlash: true, }
 
-// module.exports = {
-//   basePath: '/public/static/images',
-// }
+module.exports = {
+  basePath: '/public/static/images',
+}
 
 // module.exports = {
 //   webpack: (config, { isServer }) => {
@@ -72,12 +72,12 @@
 //   }
 // };
 
-// module.exports = {
-//   images: {
-//     loader: 'akamai',
-//     path: '',
-//   },
-// }
+module.exports = {
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+}
 
 
 // module.exports = {
